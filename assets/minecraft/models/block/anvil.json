@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/master_anvil",
+  "textures": {
+    "particle": "block/iron_block",
+    "anvil": "block/iron_block",
+    "top": "block/anvil_top"
+  }
+}
