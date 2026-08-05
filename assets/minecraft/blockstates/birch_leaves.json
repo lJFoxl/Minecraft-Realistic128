@@ -1,0 +1,32 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{ "model": "block/birch_leaves" },
+				{ "model": "block/birch_leaves", "y": 90 },
+				{ "model": "block/birch_leaves", "y": 180 },
+				{ "model": "block/birch_leaves", "y": 270 },
+				{ "model": "block/birch_leaves_mirrored" },
+				{ "model": "block/birch_leaves_mirrored", "y": 90 },
+				{ "model": "block/birch_leaves_mirrored", "y": 180 },
+				{ "model": "block/birch_leaves_mirrored", "y": 270 },
+				{ "model": "block/birch_leaves_sparse" },
+				{ "model": "block/birch_leaves_sparse", "y": 90 },
+				{ "model": "block/birch_leaves_sparse", "y": 180 },
+				{ "model": "block/birch_leaves_sparse", "y": 270 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "block/birch_leaves_hanging" },
+				{ "model": "block/birch_leaves_hanging", "y": 90 },
+				{ "model": "block/birch_leaves_hanging", "y": 180 },
+				{ "model": "block/birch_leaves_hanging", "y": 270 },
+				{ "model": "block/birch_leaves_hanging2" },
+				{ "model": "block/birch_leaves_hanging2", "y": 90 },
+				{ "model": "block/birch_leaves_hanging2", "y": 180 },
+				{ "model": "block/birch_leaves_hanging2", "y": 270 }
+			]
+		}
+	]
+}

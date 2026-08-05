@@ -1,0 +1,7 @@
+{
+    "parent": "block/better_leaves_small",
+    "textures": {
+        "all": "block/oak_leaves_better",
+		"better": "block/oak_leaves_better"
+    }
+}

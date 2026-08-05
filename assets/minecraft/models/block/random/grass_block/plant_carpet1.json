@@ -1,0 +1,22 @@
+{
+	"parent": "block/block",
+	"textures": {
+        "particle": "block/random/grass_block_top_decor/plant_carpet1_bottom",
+        "top": "block/random/grass_block_top_decor/plant_carpet1_top",
+        "bottom": "block/random/grass_block_top_decor/plant_carpet1_bottom"
+    },
+	"elements": [
+        {   "from": [ 0, 16.5, 0 ],
+            "to": [ 16, 16.5, 16 ],
+            "faces": {
+                "up":    { "texture": "#bottom", "cullface": "up", "tintindex": 0 }
+            }
+        },
+        {   "from": [ 0, 17.5, 0 ],
+            "to": [ 16, 17.5, 16 ],
+            "faces": {
+                "up":    { "texture": "#top", "cullface": "up", "tintindex": 0 }
+            }
+        }
+    ]
+}

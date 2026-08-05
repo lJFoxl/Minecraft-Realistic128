@@ -1,0 +1,82 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/grass", "weight": 25 },
+			{ "model": "block/grass", "y": 90, "weight": 25 },
+			{ "model": "block/grass", "y": 180, "weight": 25 },
+			{ "model": "block/grass", "y": 270, "weight": 25 },
+			
+			{ "model": "block/random/grass/grass2", "weight": 15 },
+			{ "model": "block/random/grass/grass2", "y": 90, "weight": 15 },
+			{ "model": "block/random/grass/grass2", "y": 180, "weight": 15 },
+			{ "model": "block/random/grass/grass2", "y": 270, "weight": 15 },
+			
+			{ "model": "block/random/grass/grass3", "weight": 25 },
+			{ "model": "block/random/grass/grass3", "y": 90, "weight": 25 },
+			{ "model": "block/random/grass/grass3", "y": 180, "weight": 25 },
+			{ "model": "block/random/grass/grass3", "y": 270, "weight": 25 },
+			
+			{ "model": "block/random/grass/grass4", "weight": 17 },
+			{ "model": "block/random/grass/grass4", "y": 90, "weight": 17 },
+			{ "model": "block/random/grass/grass4", "y": 180, "weight": 17 },
+			{ "model": "block/random/grass/grass4", "y": 270, "weight": 17 },
+			
+			{ "model": "block/random/grass/grass5", "weight": 17 },
+			{ "model": "block/random/grass/grass5", "y": 90, "weight": 17 },
+			{ "model": "block/random/grass/grass5", "y": 180, "weight": 17 },
+			{ "model": "block/random/grass/grass5", "y": 270, "weight": 17 },
+			
+			{ "model": "block/random/grass/grass6", "weight": 17 },
+			{ "model": "block/random/grass/grass6", "y": 90, "weight": 17 },
+			{ "model": "block/random/grass/grass6", "y": 180, "weight": 17 },
+			{ "model": "block/random/grass/grass6", "y": 270, "weight": 17 },
+			
+			{ "model": "block/random/grass/grass7", "weight": 15 },
+			{ "model": "block/random/grass/grass7", "y": 90, "weight": 15 },
+			{ "model": "block/random/grass/grass7", "y": 180, "weight": 15 },
+			{ "model": "block/random/grass/grass7", "y": 270, "weight": 15 },
+			
+			{ "model": "block/random/grass/grass8", "weight": 15 },
+			{ "model": "block/random/grass/grass8", "y": 90, "weight": 15 },
+			{ "model": "block/random/grass/grass8", "y": 180, "weight": 15 },
+			{ "model": "block/random/grass/grass8", "y": 270, "weight": 15 },
+			
+			{ "model": "block/random/grass/grass9", "weight": 157 },
+			{ "model": "block/random/grass/grass9", "y": 90, "weight": 157 },
+			{ "model": "block/random/grass/grass9", "y": 180, "weight": 157 },
+			{ "model": "block/random/grass/grass9", "y": 270, "weight": 157 },
+			
+			{ "model": "block/random/grass/grass10", "weight": 20 },
+			{ "model": "block/random/grass/grass10", "y": 90, "weight": 20 },
+			{ "model": "block/random/grass/grass10", "y": 180, "weight": 20 },
+			{ "model": "block/random/grass/grass10", "y": 270, "weight": 20 },
+			
+			{ "model": "block/random/grass/grass11", "weight": 10 },
+			{ "model": "block/random/grass/grass11", "y": 90, "weight": 10 },
+			{ "model": "block/random/grass/grass11", "y": 180, "weight": 10 },
+			{ "model": "block/random/grass/grass11", "y": 270, "weight": 10 },
+			
+			{ "model": "block/random/grass/grass12", "weight": 10 },
+			{ "model": "block/random/grass/grass12", "y": 90, "weight": 10 },
+			{ "model": "block/random/grass/grass12", "y": 180, "weight": 10 },
+			{ "model": "block/random/grass/grass12", "y": 270, "weight": 10 },
+			
+			{ "model": "block/random/grass/tansy", "weight": 5 },
+			
+			{ "model": "block/random/grass/flowers1", "weight": 3 },
+			{ "model": "block/random/grass/flowers1", "y": 90, "weight": 3 },
+			{ "model": "block/random/grass/flowers1", "y": 180, "weight": 3 },
+			{ "model": "block/random/grass/flowers1", "y": 270, "weight": 3 },
+			
+			{ "model": "block/random/grass/flowers2", "weight": 3 },
+			{ "model": "block/random/grass/flowers2", "y": 90, "weight": 3 },
+			{ "model": "block/random/grass/flowers2", "y": 180, "weight": 3 },
+			{ "model": "block/random/grass/flowers2", "y": 270, "weight": 3 },
+			
+			{ "model": "block/random/grass/burdock", "weight": 5 },
+			{ "model": "block/random/grass/burdock", "y": 90, "weight": 5 },
+			{ "model": "block/random/grass/burdock", "y": 180, "weight": 5 },
+			{ "model": "block/random/grass/burdock", "y": 270, "weight": 5 }
+		]
+    }
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "block/better_leaves_hanging",
+	"ambientocclusion": false,
+	"textures": {
+		"better": "block/birch_leaves_better",
+		"inner": "block/birch_leaves_better",
+		"top": "block/birch_leaves_sparse",
+		"particle": "block/birch_leaves_better"
+    }
+}

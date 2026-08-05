@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/better_leaves_bushy",
+  "textures": {
+    "particle": "block/mangrove_leaves_branches",
+    "branches": "block/mangrove_leaves_branches",
+    "leaves": "block/mangrove_leaves_better",
+    "branches_top": "block/mangrove_leaves_branches_top"
+  }
+}

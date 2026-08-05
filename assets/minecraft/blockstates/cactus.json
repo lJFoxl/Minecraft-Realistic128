@@ -1,0 +1,42 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{ "model": "block/cactus" },
+				{ "model": "block/random/cactus/cactus_thin" }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "block/empty", "weight": 21 },
+				{ "model": "block/random/cactus/cactus_arm_1", "weight": 3 },
+				{ "model": "block/random/cactus/cactus_arm_2", "weight": 3 },
+				{ "model": "block/random/cactus/cactus_arm_3", "weight": 2 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "block/empty", "weight": 22 },
+				{ "model": "block/random/cactus/cactus_arm_1", "y": 90, "weight": 3 },
+				{ "model": "block/random/cactus/cactus_arm_2", "y": 90, "weight": 3 },
+				{ "model": "block/random/cactus/cactus_arm_3", "y": 90, "weight": 2 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "block/empty", "weight": 23 },
+				{ "model": "block/random/cactus/cactus_arm_1", "y": 180, "weight": 3 },
+				{ "model": "block/random/cactus/cactus_arm_2", "y": 180, "weight": 3 },
+				{ "model": "block/random/cactus/cactus_arm_3", "y": 180, "weight": 2 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "block/empty", "weight": 24 },
+				{ "model": "block/random/cactus/cactus_arm_1", "y": 270, "weight": 3 },
+				{ "model": "block/random/cactus/cactus_arm_2", "y": 270, "weight": 3 },
+				{ "model": "block/random/cactus/cactus_arm_3", "y": 270, "weight": 2 }
+			]
+		}
+	]
+}

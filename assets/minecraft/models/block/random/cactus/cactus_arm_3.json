@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.6",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/random/cactus/cactus_arm",
+		"arm": "block/random/cactus/cactus_arm"
+	},
+	"elements": [
+		{
+			"from": [6, 4, -2],
+			"to": [10, 8, 2],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 6, 2]},
+			"faces": {
+				"north": {"uv": [11, 1, 15, 5], "rotation": 180, "texture": "#arm"},
+				"east": {"uv": [6, 0, 10, 4], "rotation": 90, "texture": "#arm"},
+				"west": {"uv": [6, 0, 10, 4], "rotation": 270, "texture": "#arm"},
+				"up": {"uv": [6, 0, 10, 4], "texture": "#arm"},
+				"down": {"uv": [6, 0, 10, 4], "rotation": 180, "texture": "#arm"}
+			}
+		}
+	]
+}

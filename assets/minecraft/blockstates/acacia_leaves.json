@@ -1,0 +1,137 @@
+{
+    "variants": {
+        "distance=1": [
+        	{ "model": "block/acacia_leaves", "weight": 1 },
+			{ "model": "block/acacia_leaves", "y": 90, "weight": 1 },
+			{ "model": "block/acacia_leaves", "y": 180, "weight": 1 },
+			{ "model": "block/acacia_leaves", "y": 270, "weight": 1 },
+        	{ "model": "block/acacia_leaves", "x": 180, "weight": 1 },
+			{ "model": "block/acacia_leaves", "y": 90, "x": 180, "weight": 1 },
+			{ "model": "block/acacia_leaves", "y": 180, "x": 180, "weight": 1 },
+			{ "model": "block/acacia_leaves", "y": 270, "x": 180, "weight": 1 },
+			
+			{ "model": "block/acacia_leaves_branches", "weight": 9 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "weight": 9 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "weight": 9 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "weight": 9 },
+        	{ "model": "block/acacia_leaves_branches", "x": 180, "weight": 9 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "x": 180, "weight": 9 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "x": 180, "weight": 9 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "x": 180, "weight": 9 }
+        ],
+        "distance=2": [
+        	{ "model": "block/acacia_leaves", "weight": 8 },
+			{ "model": "block/acacia_leaves", "y": 90, "weight": 8 },
+			{ "model": "block/acacia_leaves", "y": 180, "weight": 8 },
+			{ "model": "block/acacia_leaves", "y": 270, "weight": 8 },
+        	{ "model": "block/acacia_leaves", "x": 180, "weight": 8 },
+			{ "model": "block/acacia_leaves", "y": 90, "x": 180, "weight": 8 },
+			{ "model": "block/acacia_leaves", "y": 180, "x": 180, "weight": 8 },
+			{ "model": "block/acacia_leaves", "y": 270, "x": 180, "weight": 8 },
+			
+			{ "model": "block/acacia_leaves_branches", "weight": 2 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "weight": 2 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "weight": 2 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "weight": 2 },
+        	{ "model": "block/acacia_leaves_branches", "x": 180, "weight": 2 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "x": 180, "weight": 2 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "x": 180, "weight": 2 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "x": 180, "weight": 2 }
+        ],
+        "distance=3": [
+        	{ "model": "block/acacia_leaves", "weight": 2 },
+			{ "model": "block/acacia_leaves", "y": 90, "weight": 2 },
+			{ "model": "block/acacia_leaves", "y": 180, "weight": 2 },
+			{ "model": "block/acacia_leaves", "y": 270, "weight": 2 },
+        	{ "model": "block/acacia_leaves", "x": 180, "weight": 2 },
+			{ "model": "block/acacia_leaves", "y": 90, "x": 180, "weight": 2 },
+			{ "model": "block/acacia_leaves", "y": 180, "x": 180, "weight": 2 },
+			{ "model": "block/acacia_leaves", "y": 270, "x": 180, "weight": 2 },
+			
+			{ "model": "block/acacia_leaves_branches", "weight": 8 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "weight": 8 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "weight": 8 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "weight": 8 },
+        	{ "model": "block/acacia_leaves_branches", "x": 180, "weight": 8 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "x": 180, "weight": 8 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "x": 180, "weight": 8 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "x": 180, "weight": 8 }
+        ],
+        "distance=4": [
+        	{ "model": "block/acacia_leaves", "weight": 3 },
+			{ "model": "block/acacia_leaves", "y": 90, "weight": 3 },
+			{ "model": "block/acacia_leaves", "y": 180, "weight": 3 },
+			{ "model": "block/acacia_leaves", "y": 270, "weight": 3 },
+        	{ "model": "block/acacia_leaves", "x": 180, "weight": 3 },
+			{ "model": "block/acacia_leaves", "y": 90, "x": 180, "weight": 3 },
+			{ "model": "block/acacia_leaves", "y": 180, "x": 180, "weight": 3 },
+			{ "model": "block/acacia_leaves", "y": 270, "x": 180, "weight": 3 },
+			
+			{ "model": "block/acacia_leaves_branches", "weight": 7 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "weight": 7 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "weight": 7 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "weight": 7 },
+        	{ "model": "block/acacia_leaves_branches", "x": 180, "weight": 7 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "x": 180, "weight": 7 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "x": 180, "weight": 7 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "x": 180, "weight": 7 }
+        ],
+        "distance=5": [
+        	{ "model": "block/acacia_leaves", "weight": 6 },
+			{ "model": "block/acacia_leaves", "y": 90, "weight": 6 },
+			{ "model": "block/acacia_leaves", "y": 180, "weight": 6 },
+			{ "model": "block/acacia_leaves", "y": 270, "weight": 6 },
+        	{ "model": "block/acacia_leaves", "x": 180, "weight": 6 },
+			{ "model": "block/acacia_leaves", "y": 90, "x": 180, "weight": 6 },
+			{ "model": "block/acacia_leaves", "y": 180, "x": 180, "weight": 6 },
+			{ "model": "block/acacia_leaves", "y": 270, "x": 180, "weight": 6 },
+			
+			{ "model": "block/acacia_leaves_branches", "weight": 4 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "weight": 4 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "weight": 4 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "weight": 4 },
+        	{ "model": "block/acacia_leaves_branches", "x": 180, "weight": 4 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "x": 180, "weight": 4 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "x": 180, "weight": 4 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "x": 180, "weight": 4 }
+        ],
+        "distance=6": [
+        	{ "model": "block/acacia_leaves", "weight": 4 },
+			{ "model": "block/acacia_leaves", "y": 90, "weight": 4 },
+			{ "model": "block/acacia_leaves", "y": 180, "weight": 4 },
+			{ "model": "block/acacia_leaves", "y": 270, "weight": 4 },
+        	{ "model": "block/acacia_leaves", "x": 180, "weight": 4 },
+			{ "model": "block/acacia_leaves", "y": 90, "x": 180, "weight": 4 },
+			{ "model": "block/acacia_leaves", "y": 180, "x": 180, "weight": 4 },
+			{ "model": "block/acacia_leaves", "y": 270, "x": 180, "weight": 4 },
+			
+			{ "model": "block/acacia_leaves_branches", "weight": 6 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "weight": 6 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "weight": 6 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "weight": 6 },
+        	{ "model": "block/acacia_leaves_branches", "x": 180, "weight": 6 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "x": 180, "weight": 6 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "x": 180, "weight": 6 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "x": 180, "weight": 6 }
+        ],
+        "distance=7": [
+        	{ "model": "block/acacia_leaves", "weight": 5 },
+			{ "model": "block/acacia_leaves", "y": 90, "weight": 5 },
+			{ "model": "block/acacia_leaves", "y": 180, "weight": 5 },
+			{ "model": "block/acacia_leaves", "y": 270, "weight": 5 },
+        	{ "model": "block/acacia_leaves", "x": 180, "weight": 5 },
+			{ "model": "block/acacia_leaves", "y": 90, "x": 180, "weight": 5 },
+			{ "model": "block/acacia_leaves", "y": 180, "x": 180, "weight": 5 },
+			{ "model": "block/acacia_leaves", "y": 270, "x": 180, "weight": 5 },
+			
+			{ "model": "block/acacia_leaves_branches", "weight": 5 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "weight": 5 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "weight": 5 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "weight": 5 },
+        	{ "model": "block/acacia_leaves_branches", "x": 180, "weight": 5 },
+			{ "model": "block/acacia_leaves_branches", "y": 90, "x": 180, "weight": 5 },
+			{ "model": "block/acacia_leaves_branches", "y": 180, "x": 180, "weight": 5 },
+			{ "model": "block/acacia_leaves_branches", "y": 270, "x": 180, "weight": 5 }
+        ]
+    }
+}

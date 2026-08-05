@@ -1,0 +1,7 @@
+{
+    "parent": "block/better_leaves_mirrored",
+    "textures": {
+        "all": "block/jungle_leaves",
+		"better": "block/jungle_leaves_better"
+    }
+}

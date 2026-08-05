@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/better_leaves_branches",
+  "textures": {
+    "all": "minecraft:block/flowering_azalea_leaves_better"
+  }
+}

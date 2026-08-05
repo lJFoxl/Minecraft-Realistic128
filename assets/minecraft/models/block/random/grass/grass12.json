@@ -1,0 +1,8 @@
+{
+    "parent": "block/grass_not_tinted",
+	"ambientocclusion": false,
+	"textures": {
+        "cross": "block/random/grass/grass12",
+		"particle": "block/random/grass/grass12"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/tinted_star",
+	"ambientocclusion": false,
+	"textures": {
+        "cross": "block/random/grass/grass5",
+		"particle": "block/random/grass/grass5"
+    }
+}

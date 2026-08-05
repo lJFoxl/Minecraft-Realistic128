@@ -1,0 +1,8 @@
+{
+    "parent": "block/grass",
+	"ambientocclusion": false,
+	"textures": {
+        "cross": "block/random/grass/grass9",
+		"particle": "block/random/grass/grass9"
+    }
+}

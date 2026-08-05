@@ -1,0 +1,7 @@
+{
+    "parent": "block/better_leaves_branches",
+    "textures": {
+        "all": "block/cherry_leaves_better",
+        "extension": "block/cherry_leaves_extension"
+    }
+}

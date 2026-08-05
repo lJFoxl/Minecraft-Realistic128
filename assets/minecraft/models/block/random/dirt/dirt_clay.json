@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "block/random/dirt/dirt_clay",
+		"particle": "block/dirt"
+    }
+}

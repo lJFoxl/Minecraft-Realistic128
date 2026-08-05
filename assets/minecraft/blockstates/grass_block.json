@@ -1,0 +1,74 @@
+{
+    "multipart": [
+        { "when": { "snowy": "false" },
+			"apply": [
+				{ "model": "block/random/grass_block/grass_block", "weight": 1 },
+				{ "model": "block/random/grass_block/grass_block1", "weight": 1 },
+				{ "model": "block/random/grass_block/grass_block2", "weight": 1 },
+				{ "model": "block/random/grass_block/grass_block3", "weight": 1 },
+				{ "model": "block/random/grass_block/grass_block4", "weight": 1 },
+				{ "model": "block/random/grass_block/grass_block5", "weight": 1 }
+			]
+        },
+		{ "when": { "snowy": "false" },
+			"apply": [
+				{ "model": "block/random/grass_block/grass_block_top", "weight": 7 },
+				{ "model": "block/random/grass_block/grass_block1_top", "weight": 7 },
+				{ "model": "block/random/grass_block/grass_block2_top", "weight": 7 },
+				{ "model": "block/random/grass_block/grass_block3_top", "weight": 7 },
+				{ "model": "block/random/grass_block/grass_block4_top", "weight": 7 },
+				{ "model": "block/random/grass_block/grass_block5_top", "weight": 7 }
+			]
+        },
+		{ "apply": [
+				{ "model": "block/empty", "weight": 10 },
+				{ "model": "block/random/grass_block/root", "weight": 1 }
+			]
+		},
+		{ "when": { "snowy": "false" },
+			"apply": [
+				{ "model": "block/empty", "weight": 500 },
+				{ "model": "block/random/grass_block/branches1", "weight": 1 },
+				{ "model": "block/random/grass_block/branches1", "y": 90, "weight": 1 },
+				{ "model": "block/random/grass_block/branches1", "y": 180, "weight": 1 },
+				{ "model": "block/random/grass_block/branches1", "y": 270, "weight": 1 }
+			]
+        },
+		{ "when": { "snowy": "false" },
+			"apply": [
+				{ "model": "block/empty", "weight": 300 },
+				{ "model": "block/random/rocks/rocks1", "weight": 1 },
+				{ "model": "block/random/rocks/rocks1", "y": 90, "weight": 1 },
+				{ "model": "block/random/rocks/rocks1", "y": 180, "weight": 1 },
+				{ "model": "block/random/rocks/rocks1", "y": 270, "weight": 1 }
+			]
+        },
+		{ "when": { "snowy": "false" },
+			"apply": [
+				{ "model": "block/empty", "weight": 150 },
+				{ "model": "block/random/grass_block/plant_carpet1", "weight": 5 },
+				{ "model": "block/random/grass_block/plant_carpet1", "y": 90, "weight": 5 },
+				{ "model": "block/random/grass_block/plant_carpet1", "y": 180, "weight": 5 },
+				{ "model": "block/random/grass_block/plant_carpet1", "y": 270, "weight": 5 }
+			]
+        },
+		{ "when": { "snowy": "false" },
+			"apply": [
+				{ "model": "block/empty", "weight": 150 },
+				{ "model": "block/random/grass_block/plant_carpet2", "weight": 4 },
+				{ "model": "block/random/grass_block/plant_carpet2", "y": 90, "weight": 4 },
+				{ "model": "block/random/grass_block/plant_carpet2", "y": 180, "weight": 4 },
+				{ "model": "block/random/grass_block/plant_carpet2", "y": 270, "weight": 4 },
+				{ "model": "block/random/grass_block/plant_carpet3", "weight": 6 },
+				{ "model": "block/random/grass_block/plant_carpet3", "y": 90, "weight": 6 },
+				{ "model": "block/random/grass_block/plant_carpet3", "y": 180, "weight": 6 },
+				{ "model": "block/random/grass_block/plant_carpet3", "y": 270, "weight": 6 }
+			]
+        },
+        { "when": { "snowy": "true" },
+			"apply": [
+			{ "model": "block/grass_block_snow", "weight": 30 }
+			]
+		}
+    ]
+}

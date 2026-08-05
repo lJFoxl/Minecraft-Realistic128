@@ -1,0 +1,14 @@
+{
+    "multipart": [
+        { "apply": { "model": "block/sugar_cane" }
+		},
+		{ "when": { "OR": [ 
+				{ "age": "0|2|15" } 
+			]},
+			"apply": [
+				{ "model": "block/sugar_cane_leaves" },
+				{ "model": "block/sugar_cane_leaves2" }
+			]
+		}
+    ]
+}

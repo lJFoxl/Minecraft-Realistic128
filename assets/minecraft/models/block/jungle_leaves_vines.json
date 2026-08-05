@@ -1,0 +1,7 @@
+{
+	"parent": "block/hanging_leaves",
+	"textures": {
+		"cross": "block/jungle_leaves_vines",
+		"particle": "block/jungle_leaves"
+    }
+}

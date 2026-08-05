@@ -1,0 +1,8 @@
+{
+    "parent": "block/sugar_cane_leaves",
+	"ambientocclusion": false,
+    "textures": {
+		"particle": "block/sugar_cane2",
+        "sugar_cane": "block/sugar_cane2"
+    }
+}

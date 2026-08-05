@@ -1,0 +1,16 @@
+{
+	"multipart": [
+		{
+			"apply": { "model": "block/sand" }
+		},
+		{
+			"apply": [
+				{ "model": "block/empty", "weight": 5006 },
+				{ "model": "block/ancient_vase", "weight": 1 },
+				{ "model": "block/ancient_vase", "y": 90, "weight": 1 },
+				{ "model": "block/ancient_vase", "y": 180, "weight": 1 },
+				{ "model": "block/ancient_vase", "y": 270, "weight": 1 }
+			]
+		}
+	]
+}

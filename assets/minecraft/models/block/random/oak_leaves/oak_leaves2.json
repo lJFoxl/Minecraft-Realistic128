@@ -1,0 +1,7 @@
+{
+    "parent": "block/better_leaves",
+    "textures": {
+        "all": "block/random/oak_leaves/oak_leaves_better2",
+		"better": "block/random/oak_leaves/oak_leaves_better2"
+    }
+}

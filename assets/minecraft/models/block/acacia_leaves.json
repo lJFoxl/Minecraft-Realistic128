@@ -1,0 +1,7 @@
+{
+    "parent": "block/better_leaves_branches",
+    "textures": {
+        "all": "block/acacia_leaves_better",
+		"better": "block/acacia_leaves_better"
+    }
+}

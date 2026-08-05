@@ -1,0 +1,7 @@
+{
+    "parent": "block/better_leaves_mirrored",
+    "textures": {
+        "all": "block/acacia_leaves",
+		"better": "block/acacia_leaves_better"
+    }
+}

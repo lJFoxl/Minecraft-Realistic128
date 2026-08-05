@@ -1,0 +1,120 @@
+{
+	"ambientocclusion": true,
+	"textures": {
+        "stem": "block/shrub_stem",
+        "leaves": "block/shrub_leaves",
+		"particle": "block/shrub_leaves"
+    },
+	"elements": [
+		{   
+			"__comment": "Stem",
+			"from": [ 0.8, 0, 8 ],
+            "to": [ 15.2, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+            }
+        },
+        {   
+			"__comment": "Stem",
+			"from": [ 8, 0, 0.8 ],
+            "to": [ 8, 16, 15.2 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+            }
+        },
+        {   
+			"__comment": "Leaves Top1",
+			"from": [ 6, 14, 2 ],
+            "to": [ 16, 14, 14 ],
+            "rotation": { "origin": [ 8, 14, 8 ], "axis": "z", "angle": -22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+                "down": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 }
+            }
+        },
+        {   
+			"__comment": "Leaves Top2",
+			"from": [ 0, 14, 2 ],
+            "to": [ 10, 14, 14 ],
+            "rotation": { "origin": [ 8, 14, 8 ], "axis": "z", "angle": 22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+                "down": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 }
+            }
+        },
+        {   
+			"__comment": "Leaves Top3",
+			"from": [ 2, 14, 6 ],
+            "to": [ 14, 14, 16 ],
+            "rotation": { "origin": [ 8, 14, 8 ], "axis": "x", "angle": 22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+                "down": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 }
+            }
+        },
+        {   
+			"__comment": "Leaves Top4",
+			"from": [ 2, 14, 0 ],
+            "to": [ 14, 14, 10 ],
+            "rotation": { "origin": [ 8, 14, 8 ], "axis": "x", "angle": -22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+                "down": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 }
+            }
+        },
+        {   
+			"__comment": "Leaves Middle1",
+			"from": [ 14, 5, 2 ],
+            "to": [ 14, 15, 14 ],
+            "rotation": { "origin": [ 14, 8, 8 ], "axis": "z", "angle": 22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 }
+            }
+        },
+        {   
+			"__comment": "Leaves Middle2",
+			"from": [ 2, 5, 2 ],
+            "to": [ 2, 15, 14 ],
+            "rotation": { "origin": [ 2, 8, 8 ], "axis": "z", "angle": -22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 }
+            }
+        },
+        {   
+			"__comment": "Leaves Middle1",
+			"from": [ 2, 5, 14 ],
+            "to": [ 14, 15, 14 ],
+            "rotation": { "origin": [ 8, 8, 14 ], "axis": "x", "angle": -22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 }
+            }
+        },
+        {   
+			"__comment": "Leaves Middle2",
+			"from": [ 2, 5, 2 ],
+            "to": [ 14, 15, 2 ],
+            "rotation": { "origin": [ 8, 8, 2 ], "axis": "x", "angle": 22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0 }
+            }
+        }
+	]
+}

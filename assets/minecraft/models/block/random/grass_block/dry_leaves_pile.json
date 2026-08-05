@@ -1,0 +1,24 @@
+{
+    "textures": {
+		"particles": "block/random/grass_block_top_decor/dry_leaves",
+		"leaves": "block/random/grass_block_top_decor/dry_leaves"
+    },
+	"elements": [
+		{   "from": [ 0, 16.5, 0 ],
+            "to": [ 16, 16.5, 16 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "down": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0, "cullface": "up" },
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0, "cullface": "up" }
+            }
+        },
+		{   "from": [ 2, 17.5, 2 ],
+            "to": [ 14, 17.5, 14 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45 },
+            "faces": {
+                "down": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0, "cullface": "up" },
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves", "tintindex": 0, "cullface": "up" }
+            }
+        }
+    ]
+}
