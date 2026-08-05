@@ -2,9 +2,9 @@
   "ambientocclusion": false,
   "textures": {
     "1": "block/dark_oak_planks",
-    "2": "block/iron_block",
-    "particle": "block/detector_rail_on",
-    "rail": "block/detector_rail_on"
+    "2": "block/gold_block",
+    "particle": "block/powered_rail_on",
+    "rail": "block/powered_rail_on"
   },
   "elements": [
     {

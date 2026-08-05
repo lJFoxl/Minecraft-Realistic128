@@ -3,8 +3,8 @@
   "textures": {
     "1": "block/dark_oak_planks",
     "2": "block/iron_block",
-    "particle": "block/detector_rail_on",
-    "rail": "block/detector_rail_on"
+    "particle": "block/activator_rail_on",
+    "rail": "block/activator_rail_on"
   },
   "elements": [
     {
