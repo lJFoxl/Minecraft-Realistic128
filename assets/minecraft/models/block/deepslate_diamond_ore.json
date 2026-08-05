@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_ore",
+  "textures": {
+    "base": "block/deepslate",
+    "ore": "block/diamond_block",
+    "particle": "block/deepslate_diamond_ore"
+  }
+}
