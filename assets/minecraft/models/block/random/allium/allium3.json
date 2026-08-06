@@ -1,0 +1,9 @@
+{
+    "parent": "block/allium",
+	"textures": {
+        "stem1": "block/random/allium/allium3-1",
+        "stem2": "block/random/allium/allium3-2",
+        "blossom_1": "block/allium_blossom_1",
+        "blossom_2": "block/empty"
+    }
+}

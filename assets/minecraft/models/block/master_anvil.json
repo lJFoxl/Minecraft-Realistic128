@@ -94,7 +94,7 @@
 				"east": {"uv": [3, 9, 13, 13], "texture": "#anvil"},
 				"south": {"uv": [4.625, 8, 12.625, 12], "texture": "#anvil"},
 				"west": {"uv": [3, 12, 13, 16], "texture": "#anvil"},
-				"up": {"uv": [11.125, 10, 3.125, 0], "texture": "#anvil"},
+				"up": {"uv": [16, 16, 0, 0], "texture": "#anvil"},
 				"down": {"uv": [0, 0, 8, 10], "texture": "#anvil"}
 			}
 		},

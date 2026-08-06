@@ -1,0 +1,420 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_bottom"
+				},
+				{
+					"model": "block/rose_bush/rose_bush_bottom",
+					"y": 90
+				},
+				{
+					"model": "block/rose_bush/rose_bush_bottom",
+					"y": 180
+				},
+				{
+					"model": "block/rose_bush/rose_bush_bottom",
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_top"
+				},
+				{
+					"model": "block/rose_bush/rose_bush_top",
+					"y": 90
+				},
+				{
+					"model": "block/rose_bush/rose_bush_top",
+					"y": 180
+				},
+				{
+					"model": "block/rose_bush/rose_bush_top",
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_0_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_0_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_0_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_0_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_0_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 250
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_1_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_1_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_1_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_1_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_1_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 251
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_2_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_2_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_2_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_2_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_2_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 252
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_3_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_3_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_3_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_3_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_3_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 253
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_4_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_4_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_4_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_4_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_4_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 254
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_5_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_5_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_5_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_5_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_5_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 255
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_6_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_6_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_6_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_6_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_6_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 256
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_7_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_7_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_7_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_7_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_7_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 257
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_8_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_8_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_8_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_8_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_8_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 258
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_9_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_9_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_9_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_9_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_9_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 259
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_10_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_10_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_10_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_10_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_10_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 260
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/rose_bush/rose_bush_rose_11_0",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_11_1",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_11_2",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_11_3",
+					"weight": 100
+				},
+				{
+					"model": "block/rose_bush/rose_bush_rose_11_4",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 261
+				}
+			]
+		}
+	]
+}

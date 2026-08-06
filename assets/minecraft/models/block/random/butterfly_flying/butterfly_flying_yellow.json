@@ -1,0 +1,23 @@
+{
+	"parent": "block/butterfly_flying",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/random/butterfly/yellow_flying/butterfly",
+		"1": "block/random/butterfly/yellow_flying/butterfly1",
+		"2": "block/random/butterfly/yellow_flying/butterfly2",
+		"3": "block/random/butterfly/yellow_flying/butterfly3",
+		"4": "block/random/butterfly/yellow_flying/butterfly4",
+		"5": "block/random/butterfly/yellow_flying/butterfly5",
+		"6": "block/random/butterfly/yellow_flying/butterfly6",
+		"7": "block/random/butterfly/yellow_flying/butterfly7",
+		"8": "block/random/butterfly/yellow_flying/butterfly8",
+		"9": "block/random/butterfly/yellow_flying/butterfly9",
+		"10": "block/random/butterfly/yellow_flying/butterfly10",
+		"11": "block/random/butterfly/yellow_flying/butterfly11",
+		"12": "block/random/butterfly/yellow_flying/butterfly12",
+		"13": "block/random/butterfly/yellow_flying/butterfly13",
+		"14": "block/random/butterfly/yellow_flying/butterfly14",
+		"15": "block/random/butterfly/yellow_flying/butterfly15",
+		"particle": "block/random/butterfly/yellow_flying/butterfly"
+	}
+}

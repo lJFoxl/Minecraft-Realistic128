@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "block/cornflower_6",
+	"textures": {
+		"particle": "block/cornflower_2"
+  }
+}

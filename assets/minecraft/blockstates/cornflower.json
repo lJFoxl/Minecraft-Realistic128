@@ -1,0 +1,25 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "variants": {
+        "": [
+            { "model": "block/cornflower_0", "weight": 5 },
+            { "model": "block/cornflower_1", "weight": 5 },
+			{ "model": "block/cornflower_2", "weight": 5 },
+			{ "model": "block/cornflower_6", "weight": 3 },
+            { "model": "block/cornflower_7", "weight": 3 },
+			{ "model": "block/cornflower_8", "weight": 3 },
+			{ "model": "block/cornflower_3", "weight": 1 },
+            { "model": "block/cornflower_4", "weight": 1 },
+			{ "model": "block/cornflower_5", "weight": 1 },
+			{ "model": "block/cornflower_3", "y": 90, "weight": 1 },
+            { "model": "block/cornflower_4", "y": 90, "weight": 1 },
+			{ "model": "block/cornflower_5", "y": 90, "weight": 1 },
+			{ "model": "block/cornflower_3", "y": 180, "weight": 1 },
+            { "model": "block/cornflower_4", "y": 180, "weight": 1 },
+			{ "model": "block/cornflower_5", "y": 180, "weight": 1 },
+			{ "model": "block/cornflower_3", "y": 270, "weight": 1 },
+            { "model": "block/cornflower_4", "y": 270, "weight": 1 },
+			{ "model": "block/cornflower_5", "y": 270, "weight": 1 }
+        ]
+    }
+}

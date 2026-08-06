@@ -1,0 +1,51 @@
+{
+	"parent": "block/flower",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/azure_bluet",
+		"cross": "block/azure_bluet",
+		"flowers": "block/azure_bluet_flowers"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 0],
+			"to": [8, 16, 16],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, -3, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [2, -3, 3],
+			"to": [12, 7, 13],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 1, 8]},
+			"faces": {
+				"west": {"uv": [0, 0, 10, 10], "texture": "#flowers"},
+				"up": {"uv": [0, 0, 10, 10], "rotation": 270, "texture": "#flowers"}
+			}
+		},
+		{
+			"from": [3, -3, 4],
+			"to": [13, 7, 14],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 1, 8]},
+			"faces": {
+				"south": {"uv": [0, 0, 10, 10], "texture": "#flowers"},
+				"up": {"uv": [0, 0, 10, 10], "rotation": 180, "texture": "#flowers"}
+			}
+		}
+	]
+}
