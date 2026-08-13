@@ -1,111 +1,128 @@
 {
-	"credit":"Made with Blockbench",
-	"parent":"minecraft:block/block",
-	"ambientocclusion":false,
-	"textures":{"1":"block/stripped_spruce_log","particle":"block/stripped_spruce_log"},
-	"elements":[
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/spruce_planks",
+		"particle": "block/spruce_planks"
+	},
+	"elements": [
 		{
-			"name":"Left-hand post",
-			"from":[0,4.5,7],
-			"to":[2,15.5,9],
-			"faces":{
-				"north":{"uv":[11,0,13,11],"texture":"#1"},
-				"east":{"uv":[11.5,0,13.5,11],"texture":"#1"},
-				"south":{"uv":[11,0,13,11],"texture":"#1"},
-				"west":{"uv":[11,0,13,11],"texture":"#1","cullface":"west"},
-				"up":{"uv":[0,8,2,10],"texture":"#1"},
-				"down":{"uv":[2,10,0,8],"texture":"#1"}
+			"name": "Left-hand post",
+			"from": [0, 5, 7],
+			"to": [2, 16, 9],
+			"faces": {
+				"north": {"uv": [7, 0, 9, 11], "texture": "#1"},
+				"east": {"uv": [8.125, 0, 10.125, 11], "texture": "#1"},
+				"south": {"uv": [7, 0, 9, 11], "texture": "#1"},
+				"west": {"uv": [8.125, 0, 10.125, 11], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [0, 8, 2.625, 10.625], "texture": "#1"},
+				"down": {"uv": [2, 10, 0, 8], "texture": "#1"}
 			}
 		},
 		{
-			"name":"Right-hand post",
-			"from":[14,4.5,7],
-			"to":[16,15.5,9],
-			"faces":{
-				"north":{"uv":[10.5,0,12.5,11],"texture":"#1"},
-				"east":{"uv":[10.75,0,12.75,11],"texture":"#1","cullface":"east"},
-				"south":{"uv":[10.5,0,12.5,11],"texture":"#1"},
-				"west":{"uv":[10.5,0,12.5,11],"texture":"#1"},
-				"up":{"uv":[0,8,2,10],"texture":"#1"},
-				"down":{"uv":[2,10,0,8],"texture":"#1"}
+			"name": "Right-hand post",
+			"from": [14, 5, 7],
+			"to": [16, 16, 9],
+			"faces": {
+				"north": {"uv": [7, 0, 9, 11], "texture": "#1"},
+				"east": {"uv": [8.125, 0, 10.125, 11], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [7, 0, 9, 11], "texture": "#1"},
+				"west": {"uv": [8.125, 0, 10.125, 11], "texture": "#1"},
+				"up": {"uv": [0, 8, 2.625, 10.625], "texture": "#1"},
+				"down": {"uv": [2, 10, 0, 8], "texture": "#1"}
 			}
 		},
 		{
-			"name":"Inner vertical post of left-hand gate door",
-			"from":[6,5.5,7],
-			"to":[8,14.5,9],
-			"faces":{
-				"north":{"uv":[4,7,6,16],"texture":"#1"},
-				"east":{"uv":[4,7,6,16],"texture":"#1"},
-				"south":{"uv":[4,7,6,16],"texture":"#1"},
-				"west":{"uv":[4,7,6,16],"texture":"#1"},
-				"up":{"uv":[0,8,2,10],"texture":"#1"},
-				"down":{"uv":[2,10,0,8],"texture":"#1"}
+			"name": "Inner vertical post of left-hand gate door",
+			"from": [6, 6, 7],
+			"to": [8, 15, 9],
+			"faces": {
+				"north": {"uv": [14, 1, 16, 10], "texture": "#1"},
+				"east": {"uv": [13, 1.125, 15, 10], "texture": "#1"},
+				"south": {"uv": [15, 1, 13, 10], "texture": "#1"},
+				"west": {"uv": [13, 1, 15, 10], "texture": "#1"},
+				"up": {"uv": [10, 5.25, 7.375, 7.875], "texture": "#1"},
+				"down": {"uv": [16, 5.25, 11, 2.625], "texture": "#1"}
 			}
 		},
 		{
-			"name":"Inner vertical post of right-hand gate door",
-			"from":[8,5.5,7],
-			"to":[10,14.5,9],
-			"faces":{
-				"north":{"uv":[4,7,6,16],"texture":"#1"},
-				"east":{"uv":[4,7,6,16],"texture":"#1"},
-				"south":{"uv":[4,7,6,16],"texture":"#1"},
-				"west":{"uv":[4,7,6,16],"texture":"#1"},
-				"up":{"uv":[0,8,2,10],"texture":"#1"},
-				"down":{"uv":[2,10,0,8],"texture":"#1"}
+			"name": "Inner vertical post of right-hand gate door",
+			"from": [8, 6, 7],
+			"to": [10, 15, 9],
+			"faces": {
+				"north": {"uv": [13, 1, 15, 10], "texture": "#1"},
+				"east": {"uv": [14, 1, 16, 10], "texture": "#1"},
+				"south": {"uv": [14, 1, 16, 10], "texture": "#1"},
+				"west": {"uv": [14, 1, 16, 10], "texture": "#1"},
+				"up": {"uv": [7.375, 5.25, 4.75, 7.875], "texture": "#1"},
+				"down": {"uv": [4, 7.875, 6.625, 5.25], "texture": "#1"}
 			}
 		},
 		{
-			"name":"Lower horizontal bar of left-hand gate door",
-			"from":[2,5.5,7],
-			"to":[6,8.5,9],
-			"faces":{
-				"north":{"uv":[0,10,4,13],"texture":"#1"},
-				"south":{"uv":[0,10,4,13],"texture":"#1"},
-				"up":{"uv":[0,13.5,4,15.5],"texture":"#1"},
-				"down":{"uv":[4,15.5,0,13.5],"texture":"#1"}
+			"name": "Lower horizontal bar of left-hand gate door",
+			"from": [2, 6, 7],
+			"to": [6, 9, 9],
+			"faces": {
+				"north": {"uv": [9, 7, 13, 10], "texture": "#1"},
+				"south": {"uv": [9, 10, 13, 7], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [12, 8, 16, 10.625], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [4, 7.875, 0, 5.25], "texture": "#1"}
 			}
 		},
 		{
-			"name":"Upper horizontal bar of left-hand gate door",
-			"from":[2,11.5,7],
-			"to":[6,14.5,9],
-			"faces":{
-				"north":{"uv":[0,13,4,16],"texture":"#1"},
-				"south":{"uv":[0,13,4,16],"texture":"#1"},
-				"up":{"uv":[0,10.75,4,12.75],"texture":"#1"},
-				"down":{"uv":[4,12.75,0,10.75],"texture":"#1"}
+			"name": "Upper horizontal bar of left-hand gate door",
+			"from": [2, 12, 7],
+			"to": [6, 15, 9],
+			"faces": {
+				"north": {"uv": [9, 1, 13, 4], "texture": "#1"},
+				"south": {"uv": [9, 4, 13, 1], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [10, 7.875, 14, 5.25], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [4, 7.875, 0, 5.25], "texture": "#1"}
 			}
 		},
 		{
-			"name":"Lower horizontal bar of right-hand gate door",
-			"from":[10,5.5,7],
-			"to":[14,8.5,9],
-			"faces":{
-				"north":{"uv":[0,13,4,16],"texture":"#1"},
-				"south":{"uv":[0,13,4,16],"texture":"#1"},
-				"up":{"uv":[0,10.5,4,12.5],"texture":"#1"},
-				"down":{"uv":[4,12.5,0,10.5],"texture":"#1"}
+			"name": "Lower horizontal bar of right-hand gate door",
+			"from": [10, 6, 7],
+			"to": [14, 9, 9],
+			"faces": {
+				"north": {"uv": [9, 10, 13, 7], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [9, 7, 13, 10], "texture": "#1"},
+				"up": {"uv": [12, 8, 16, 10.625], "texture": "#1"},
+				"down": {"uv": [16, 10.625, 12, 8], "texture": "#1"}
 			}
 		},
 		{
-			"name":"Upper horizontal bar of right-hand gate door",
-			"from":[10,11.5,7],
-			"to":[14,14.5,9],
-			"faces":{
-				"north":{"uv":[0,10,4,13],"texture":"#1"},
-				"south":{"uv":[0,10,4,13],"texture":"#1"},
-				"up":{"uv":[0,13.5,4,15.5],"texture":"#1"},
-				"down":{"uv":[4,15.5,0,13.5],"texture":"#1"}
+			"name": "Upper horizontal bar of right-hand gate door",
+			"from": [10, 12, 7],
+			"to": [14, 15, 9],
+			"faces": {
+				"north": {"uv": [9, 1, 13, 4], "texture": "#1"},
+				"south": {"uv": [9, 1, 13, 4], "texture": "#1"},
+				"up": {"uv": [0.75, 7.875, 4.75, 5.25], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [16, 7.875, 12, 5.25], "texture": "#1"}
 			}
 		}
 	],
-	"display":{
-		"thirdperson_righthand":{"scale":[0.6,0.6,0.6]},
-		"thirdperson_lefthand":{"scale":[0.6,0.6,0.6]},
-		"ground":{"scale":[0.6,0.6,0.6]},
-		"gui":{"rotation":[30,135,0],"scale":[0.625,0.625,0.625]},
-		"fixed":{"scale":[0.6,0.6,0.6]}
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-64.67, -88.33, -75.36],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [30, 135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [-180, -0.75, -180],
+			"scale": [0.5, 0.5, 0.5]
+		}
 	}
 }

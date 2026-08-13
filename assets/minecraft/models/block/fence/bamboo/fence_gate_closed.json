@@ -2,7 +2,7 @@
 	"credit":"Made with Blockbench",
 	"parent":"minecraft:block/block",
 	"ambientocclusion":false,
-	"textures":{"particle":"block/bamboo_stalk","texture":"block/bamboo_stalk"},
+	"textures":{"particle":"block/bamboo_planks","texture":"block/bamboo_planks"},
 	"elements":[
 		{
 			"name":"l",
