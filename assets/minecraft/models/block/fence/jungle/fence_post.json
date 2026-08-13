@@ -1,0 +1,24 @@
+{
+	"credit":"Made with Blockbench",
+	"parent":"minecraft:block/block",
+	"ambientocclusion":false,
+	"textures":{"1":"block/jungle_log_top","particle":"block/jungle_log"},
+	"elements":[
+		{
+			"from":[6,0,6],
+			"to":[10,16,10],
+			"faces":{
+				"north":{"uv":[8,0,12,16],"texture":"#particle"},
+				"east":{"uv":[4,0,8,16],"texture":"#particle"},
+				"south":{"uv":[0,0,4,16],"texture":"#particle"},
+				"west":{"uv":[12,0,16,16],"texture":"#particle"},
+				"up":{"uv":[0,0,16,16],"texture":"#1","cullface":"up"},
+				"down":{"uv":[0,0,16,16],"texture":"#1","cullface":"down"}
+			}
+		}
+	],
+	"display":{
+		"gui":{"rotation":[30,135,0],"scale":[0.625,0.625,0.625]},
+		"fixed":{"rotation":[0,90,0],"scale":[0.5,0.5,0.5]}
+	}
+}

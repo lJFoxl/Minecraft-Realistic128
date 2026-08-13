@@ -1,0 +1,9 @@
+{
+	"parent":"minecraft:block/fence/jungle/fence_inventory",
+	"textures":{
+		"1"       :"block/stripped_pale_oak_log"    ,
+		"2"       :"block/stripped_pale_oak_log_top",
+		"particle":"block/stripped_pale_oak_log"    ,
+		"texture" :"block/stripped_pale_oak_log"
+	}
+}

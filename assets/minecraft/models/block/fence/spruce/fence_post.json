@@ -1,0 +1,18 @@
+{
+	"credit":"Made with Blockbench",
+	"textures":{"1":"block/spruce_log","2":"block/spruce_log_top","particle":"block/stripped_spruce_log"},
+	"elements":[
+		{
+			"from":[6,0,6],
+			"to":[10,16,10],
+			"faces":{
+				"north":{"uv":[0,0,4,16],"texture":"#1"},
+				"east":{"uv":[4,0,8,16],"texture":"#1"},
+				"south":{"uv":[8,0,12,16],"texture":"#1"},
+				"west":{"uv":[12,0,16,16],"texture":"#1"},
+				"up":{"uv":[0,0,16,16],"texture":"#2"},
+				"down":{"uv":[0,0,16,16],"texture":"#2"}
+			}
+		}
+	]
+}

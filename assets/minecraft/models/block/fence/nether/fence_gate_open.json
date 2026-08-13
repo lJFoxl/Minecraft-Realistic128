@@ -1,0 +1,108 @@
+{
+	"credit":"Made with Blockbench",
+	"parent":"minecraft:block/block",
+	"ambientocclusion":false,
+	"textures":{"1":"block/nether_bricks","particle":"block/nether_bricks"},
+	"elements":[
+		{
+			"name":"Left-hand post",
+			"from":[0,4.5,7],
+			"to":[2,15.5,9],
+			"faces":{
+				"north":{"uv":[10.875,0,12.875,11],"texture":"#1"},
+				"east":{"uv":[10.875,0,12.875,11],"texture":"#1"},
+				"south":{"uv":[10.875,0,12.875,11],"texture":"#1"},
+				"west":{"uv":[10.875,0,12.875,11],"texture":"#1","cullface":"west"},
+				"up":{"uv":[0,8,2,10],"texture":"#1"},
+				"down":{"uv":[2,10,0,8],"texture":"#1"}
+			}
+		},
+		{
+			"name":"Right-hand post",
+			"from":[14,4.5,7],
+			"to":[16,15.5,9],
+			"faces":{
+				"north":{"uv":[11,0,13,11],"texture":"#1"},
+				"east":{"uv":[11,0,13,11],"texture":"#1","cullface":"east"},
+				"south":{"uv":[11,0,13,11],"texture":"#1"},
+				"west":{"uv":[11,0,13,11],"texture":"#1"},
+				"up":{"uv":[0,8,2,10],"texture":"#1"},
+				"down":{"uv":[2,10,0,8],"texture":"#1"}
+			}
+		},
+		{
+			"name":"Inner vertical post of left-hand gate door",
+			"from":[0,5.5,13],
+			"to":[2,14.5,15],
+			"faces":{
+				"north":{"uv":[4,7,6,16],"texture":"#1"},
+				"east":{"uv":[4,7,6,16],"texture":"#1"},
+				"south":{"uv":[4,7,6,16],"texture":"#1"},
+				"west":{"uv":[4,7,6,16],"texture":"#1"},
+				"up":{"uv":[0,8,2,10],"texture":"#1"},
+				"down":{"uv":[2,10,0,8],"texture":"#1"}
+			}
+		},
+		{
+			"name":"Inner vertical post of right-hand gate door",
+			"from":[14,5.5,13],
+			"to":[16,14.5,15],
+			"faces":{
+				"north":{"uv":[4,7,6,16],"texture":"#1"},
+				"east":{"uv":[4,7,6,16],"texture":"#1"},
+				"south":{"uv":[4,7,6,16],"texture":"#1"},
+				"west":{"uv":[4,7,6,16],"texture":"#1"},
+				"up":{"uv":[0,8,2,10],"texture":"#1"},
+				"down":{"uv":[2,10,0,8],"texture":"#1"}
+			}
+		},
+		{
+			"name":"Lower horizontal bar of left-hand gate door",
+			"from":[0,5.5,9],
+			"to":[2,8.5,13],
+			"faces":{
+				"east":{"uv":[0,0,4,3],"texture":"#1"},
+				"west":{"uv":[0,0,4,3],"texture":"#1"},
+				"up":{"uv":[11,1,13,5],"texture":"#1"},
+				"down":{"uv":[12.75,5,10.75,1],"texture":"#1"}
+			}
+		},
+		{
+			"name":"Upper horizontal bar of left-hand gate door",
+			"from":[0,11.5,9],
+			"to":[2,14.5,13],
+			"faces":{
+				"east":{"uv":[0,0,4,3],"texture":"#1"},
+				"west":{"uv":[0,0,4,3],"texture":"#1"},
+				"up":{"uv":[10.75,8.75,12.75,12.75],"texture":"#1"},
+				"down":{"uv":[12.75,12.5,10.75,8.5],"texture":"#1"}
+			}
+		},
+		{
+			"name":"Lower horizontal bar of left-hand gate door",
+			"from":[14,5.5,9],
+			"to":[16,8.5,13],
+			"faces":{
+				"east":{"uv":[0,0,4,3],"texture":"#1"},
+				"west":{"uv":[0,0,4,3],"texture":"#1"},
+				"up":{"uv":[10.75,9.25,12.75,13.25],"texture":"#1"},
+				"down":{"uv":[12.75,12.75,10.75,8.75],"texture":"#1"}
+			}
+		},
+		{
+			"name":"Upper horizontal bar of left-hand gate door",
+			"from":[14,11.5,9],
+			"to":[16,14.5,13],
+			"faces":{
+				"east":{"uv":[0,0,4,3],"texture":"#1"},
+				"west":{"uv":[0,0,4,3],"texture":"#1"},
+				"up":{"uv":[10.75,9.75,12.75,13.75],"texture":"#1"},
+				"down":{"uv":[12.75,12.75,10.75,8.75],"texture":"#1"}
+			}
+		}
+	],
+	"display":{
+		"gui":{"rotation":[30,135,0],"scale":[0.625,0.625,0.625]},
+		"fixed":{"rotation":[0,90,0],"scale":[0.5,0.5,0.5]}
+	}
+}

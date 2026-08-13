@@ -1,0 +1,25 @@
+{
+	"credit":"Made with Blockbench",
+	"parent":"minecraft:block/block",
+	"ambientocclusion":false,
+	"textures":{"particle":"block/bamboo_stalk","texture":"block/bamboo_stalk"},
+	"elements":[
+		{
+			"name":"Left post",
+			"from":[7.125,0,7.125],
+			"to":[8.875,16,8.875],
+			"faces":{
+				"north":{"uv":[9,0,12.125,16],"texture":"#texture"},
+				"east":{"uv":[9,0,12.125,16],"texture":"#texture"},
+				"south":{"uv":[9,0,12.125,16],"texture":"#texture"},
+				"west":{"uv":[9,0,12.125,16],"texture":"#texture"},
+				"up":{"uv":[13.125,4.125,15.875,6.875],"texture":"#texture"},
+				"down":{"uv":[13.125,0,16,3],"texture":"#texture"}
+			}
+		}
+	],
+	"display":{
+		"gui":{"rotation":[30,135,0],"scale":[0.625,0.625,0.625]},
+		"fixed":{"rotation":[0,90,0],"scale":[0.5,0.5,0.5]}
+	}
+}

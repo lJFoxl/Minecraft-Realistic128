@@ -1,0 +1,38 @@
+{
+	"credit":"Made with Blockbench",
+	"parent":"minecraft:block/block",
+	"ambientocclusion":false,
+	"textures":{"particle":"block/stripped_birch_log","texture":"block/stripped_birch_log"},
+	"elements":[
+		{
+			"name":"Lower bar",
+			"from":[7.75,9.75,0],
+			"to":[8.25,11.75,8.75],
+			"faces":{
+				"north":{"uv":[13,7,13.5,9],"texture":"#texture"},
+				"east":{"uv":[0,14,16,16],"texture":"#texture"},
+				"south":{"uv":[12.5,7,13,9],"texture":"#texture"},
+				"west":{"uv":[0,13.875,16,15.875],"texture":"#texture"},
+				"up":{"uv":[5.75,0,6.25,8.75],"texture":"#texture"},
+				"down":{"uv":[5.75,0,6.25,8.75],"texture":"#texture"}
+			}
+		},
+		{
+			"name":"Lower bar",
+			"from":[7.75,2.75,0],
+			"to":[8.25,4.75,8.75],
+			"faces":{
+				"north":{"uv":[13.875,7.125,14.375,9.125],"texture":"#texture"},
+				"east":{"uv":[8.875,2.375,16,4.375],"texture":"#texture"},
+				"south":{"uv":[14.625,7,15.125,9],"texture":"#texture"},
+				"west":{"uv":[8.875,2.375,16,4.375],"texture":"#texture"},
+				"up":{"uv":[5.75,7.25,6.25,16],"texture":"#texture"},
+				"down":{"uv":[5.75,7.25,6.25,16],"texture":"#texture"}
+			}
+		}
+	],
+	"display":{
+		"gui":{"rotation":[30,135,0],"scale":[0.625,0.625,0.625]},
+		"fixed":{"rotation":[0,90,0],"scale":[0.5,0.5,0.5]}
+	}
+}
