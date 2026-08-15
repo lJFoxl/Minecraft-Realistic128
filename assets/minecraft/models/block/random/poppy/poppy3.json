@@ -1,0 +1,8 @@
+{
+    "parent": "block/poppy",
+	"textures": {
+        "stems1": "block/random/poppy/poppy_stems3-1",
+        "stems2": "block/random/poppy/poppy_stems3-2",
+        "blossom": "block/random/poppy/poppy_blossom_3"
+    }
+}

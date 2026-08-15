@@ -1,0 +1,7 @@
+{
+    "parent": "block/azure_bluet",
+	"textures": {
+        "cross": "block/random/azure_bluet/azure_bluet2",
+        "flowers": "block/random/azure_bluet/azure_bluet_flowers2"
+    }
+}

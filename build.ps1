@@ -30,16 +30,39 @@ if (Test-Path $outZip) {
 }
 
 # --- Сборка ------------------------------------------------------------------
-# Compress-Archive кладёт переданные пути в корень zip.
-# Это именно то, что нужно Minecraft: pack.mcmeta, pack.png и assets/ на верхнем уровне.
-$items = @(
-    (Join-Path $SourceDir "pack.mcmeta"),
-    (Join-Path $SourceDir "pack.png"),
-    (Join-Path $SourceDir "assets")
-)
+# Пишем zip вручную через .NET ZipArchive, чтобы пути entries содержали прямые
+# слэши '/' (Minecraft/Java ZipInputStream ждёт именно '/', а Compress-Archive
+# на Windows кладёт '\' — из-за чего некоторые сборки Minecraft не находят файлы).
+Add-Type -AssemblyName System.IO.Compression
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+
+# Файлы, которые должны лежать в корне архива (pack.mcmeta, pack.png),
+# плюс всё содержимое assets/ — с относительными путями.
+$rootFiles = @("pack.mcmeta", "pack.png")
+$fileList = New-Object System.Collections.Generic.List[string]
+foreach ($rel in $rootFiles) {
+    $fileList.Add((Join-Path $SourceDir $rel))
+}
+$assetsDir = Join-Path $SourceDir "assets"
+$assetFiles = [string[]](Get-ChildItem -Path $assetsDir -Recurse -File -Force).FullName
+$fileList.AddRange($assetFiles)
 
 Write-Host "Упаковываю ресурс-пак в $outZip ..."
-Compress-Archive -Path $items -DestinationPath $outZip -CompressionLevel Optimal -Force
+$fs = [System.IO.File]::Open($outZip, [System.IO.FileMode]::Create)
+try {
+    $zip = New-Object System.IO.Compression.ZipArchive($fs, [System.IO.Compression.ZipArchiveMode]::Create)
+    try {
+        foreach ($abs in $fileList) {
+            $rel = $abs.Substring($SourceDir.Length).TrimStart('\','/') -replace '\\','/'
+            $entry = $zip.CreateEntry($rel, [System.IO.Compression.CompressionLevel]::Optimal)
+            $es = $entry.Open()
+            try {
+                $data = [System.IO.File]::ReadAllBytes($abs)
+                $es.Write($data, 0, $data.Length)
+            } finally { $es.Dispose() }
+        }
+    } finally { $zip.Dispose() }
+} finally { $fs.Dispose() }
 
 # --- Отчёт -------------------------------------------------------------------
 $size = (Get-Item $outZip).Length

@@ -1,0 +1,32 @@
+
+{
+    "multipart": [
+	    {
+	      "apply": [
+	        { "model": "block/oxeye_daisy" },
+				{ "model": "block/oxeye_daisy", "y": 90 },
+				{ "model": "block/oxeye_daisy", "y": 180 },
+				{ "model": "block/oxeye_daisy", "y": 270 }
+	      ]
+	    },
+	    { "apply": [
+		    { "model": "block/empty", "weight": 200 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_blue", "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_blue", "y": 90, "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_blue", "y": 180, "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_blue", "y": 270, "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_orange", "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_orange", "y": 90, "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_orange", "y": 180, "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_orange", "y": 270, "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_yellow", "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_yellow", "y": 90, "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_yellow", "y": 180, "weight": 1 },
+		    { "model": "block/random/butterfly_flying/butterfly_flying_yellow", "y": 270, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_red", "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_red", "y": 90, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_red", "y": 180, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_red", "y": 270, "weight": 1 }
+	    ]}
+    ]
+}

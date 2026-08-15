@@ -1,5 +1,6 @@
 {
     "pack": {
+        "pack_format": 75,
         "description": "Реалистичные текстуры от J.Fox",
         "min_format": 75,
         "max_format": 75

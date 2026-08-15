@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.6",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "item/honeycomb",
+		"icon": "item/honeycomb"
+	},
+	"elements": [
+		{
+			"from": [10, 0, 17],
+			"to": [16, 6, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 9]},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#icon"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {}
+}

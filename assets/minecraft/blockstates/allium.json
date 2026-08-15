@@ -1,0 +1,46 @@
+{
+    "multipart": [
+        {
+			"apply": [
+				{ "model": "block/allium" },
+				{ "model": "block/allium", "y": 90 },
+				{ "model": "block/allium", "y": 180 },
+				{ "model": "block/allium", "y": 270 },
+				{ "model": "block/random/allium/allium2" },
+				{ "model": "block/random/allium/allium2", "y": 90 },
+				{ "model": "block/random/allium/allium2", "y": 180 },
+				{ "model": "block/random/allium/allium2", "y": 270 },
+				{ "model": "block/random/allium/allium3" },
+				{ "model": "block/random/allium/allium3", "y": 90 },
+				{ "model": "block/random/allium/allium3", "y": 180 },
+				{ "model": "block/random/allium/allium3", "y": 270 }
+			]
+		},
+		{ "apply": [
+			{ "model": "block/empty", "weight": 40 },
+			{ "model": "block/butterfly_allium", "weight": 1 },
+			{ "model": "block/butterfly_allium", "y": 90, "weight": 1 },
+			{ "model": "block/butterfly_allium", "y": 180, "weight": 1 },
+			{ "model": "block/butterfly_allium", "y": 270, "weight": 1 }
+		]},
+		{ "apply": [
+			{ "model": "block/empty", "weight": 200 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_blue", "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_blue", "y": 90, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_blue", "y": 180, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_blue", "y": 270, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_orange", "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_orange", "y": 90, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_orange", "y": 180, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_orange", "y": 270, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_yellow", "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_yellow", "y": 90, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_yellow", "y": 180, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_yellow", "y": 270, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_red", "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_red", "y": 90, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_red", "y": 180, "weight": 1 },
+			{ "model": "block/random/butterfly_flying/butterfly_flying_red", "y": 270, "weight": 1 }
+		]}
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_ore",
+  "textures": {
+    "base": "block/stone",
+    "ore": "block/raw_copper_block",
+    "particle": "block/copper_ore"
+  }
+}

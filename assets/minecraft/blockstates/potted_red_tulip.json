@@ -1,0 +1,44 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [
+        {   "apply": { "model": "block/flower_pot" }
+		},
+        {   "apply": [
+		    { "model": "block/potted_tulip_stem_0_0", "weight": 31 },
+            { "model": "block/potted_tulip_stem_0_0", "y": 90, "weight": 31 },
+			{ "model": "block/potted_tulip_stem_0_1", "weight": 31 },
+            { "model": "block/potted_tulip_stem_0_1", "y": 90, "weight": 31 },
+			{ "model": "block/potted_tulip_stem_0_2", "weight": 31 },
+            { "model": "block/potted_tulip_stem_0_2", "y": 90, "weight": 31 },
+			{ "model": "block/potted_tulip_stem_0_3", "weight": 32 },
+            { "model": "block/potted_tulip_stem_0_3", "y": 90, "weight": 32 }
+			]
+        },
+        {   "apply": [
+		    { "model": "block/potted_tulip_stem_1_3", "weight": 31 },
+            { "model": "block/potted_tulip_stem_1_3", "y": 90, "weight": 31 },
+			{ "model": "block/potted_tulip_stem_1_2", "weight": 31 },
+            { "model": "block/potted_tulip_stem_1_2", "y": 90, "weight": 31 },
+			{ "model": "block/potted_tulip_stem_1_1", "weight": 31 },
+            { "model": "block/potted_tulip_stem_1_1", "y": 90, "weight": 31 },
+			{ "model": "block/potted_tulip_stem_1_0", "weight": 32 },
+            { "model": "block/potted_tulip_stem_1_0", "y": 90, "weight": 32 }
+			]
+        },
+        {   "apply": [
+		    { "model": "block/potted_red_tulip_head_0" },
+            { "model": "block/potted_red_tulip_head_0", "y": 90 },
+            { "model": "block/potted_red_tulip_head_0", "y": 180 },
+            { "model": "block/potted_red_tulip_head_0", "y": 270 },
+			{ "model": "block/potted_red_tulip_head_1" },
+            { "model": "block/potted_red_tulip_head_1", "y": 90 },
+            { "model": "block/potted_red_tulip_head_1", "y": 180 },
+            { "model": "block/potted_red_tulip_head_1", "y": 270 },
+			{ "model": "block/potted_red_tulip_head_2" },
+            { "model": "block/potted_red_tulip_head_2", "y": 90 },
+            { "model": "block/potted_red_tulip_head_2", "y": 180 },
+            { "model": "block/potted_red_tulip_head_2", "y": 270 }
+			]
+        }
+    ]
+}

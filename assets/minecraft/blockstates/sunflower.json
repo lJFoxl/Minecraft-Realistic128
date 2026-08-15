@@ -1,0 +1,85 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": {
+				"model": "block/sunflower_bottom"
+			}
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/sunflower/sunflower_top_0"
+				},
+				{
+					"model": "block/sunflower/sunflower_top_1"
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/sunflower/sunflower_leaf_0",
+					"weight": 200
+				},
+				{
+					"model": "block/sunflower/sunflower_leaf_0",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/sunflower/sunflower_leaf_0",
+					"y": 180,
+					"weight": 200
+				},
+				{
+					"model": "block/sunflower/sunflower_leaf_0",
+					"y": 270,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 600
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/sunflower/sunflower_leaf_1",
+					"weight": 201
+				},
+				{
+					"model": "block/sunflower/sunflower_leaf_1",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/sunflower/sunflower_leaf_1",
+					"y": 180,
+					"weight": 200
+				},
+				{
+					"model": "block/sunflower/sunflower_leaf_1",
+					"y": 270,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 600
+				}
+			]
+		}
+	]
+}

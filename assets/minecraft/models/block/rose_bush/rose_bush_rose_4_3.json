@@ -1,0 +1,7 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "block/rose_bush/rose_bush_rose_4_0",
+	"textures": {
+		"particle": "block/rose_bush/rose_bush_rose_3"
+	}
+}

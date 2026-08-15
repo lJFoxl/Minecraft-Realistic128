@@ -1,0 +1,11 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "multipart": [
+        {   "apply": { "model": "block/flower_pot" }
+		},
+        {   "apply": [
+            { "model": "block/potted_cornflower" }
+			]
+        }
+    ]
+}

@@ -1,0 +1,408 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_bottom"
+				},
+				{
+					"model": "block/peony/peony_bottom",
+					"y": 90
+				},
+				{
+					"model": "block/peony/peony_bottom",
+					"y": 180
+				},
+				{
+					"model": "block/peony/peony_bottom",
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_top"
+				},
+				{
+					"model": "block/peony/peony_top",
+					"y": 90
+				},
+				{
+					"model": "block/peony/peony_top",
+					"y": 180
+				},
+				{
+					"model": "block/peony/peony_top",
+					"y": 270
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_0_0",
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_3_0",
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_0_1",
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_3_1",
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_0_2",
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_3_2",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 300
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_0_0",
+					"y": 90,
+					"weight": 101
+				},
+				{
+					"model": "block/peony/peony_flower_3_0",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_0_1",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_3_1",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_0_2",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_3_2",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 300
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_0_0",
+					"y": 180,
+					"weight": 102
+				},
+				{
+					"model": "block/peony/peony_flower_3_0",
+					"y": 180,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_0_1",
+					"y": 180,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_3_1",
+					"y": 180,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_0_2",
+					"y": 180,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_3_2",
+					"y": 180,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 300
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_0_0",
+					"y": 270,
+					"weight": 103
+				},
+				{
+					"model": "block/peony/peony_flower_3_0",
+					"y": 270,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_0_1",
+					"y": 270,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_3_1",
+					"y": 270,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_0_2",
+					"y": 270,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_3_2",
+					"y": 270,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 300
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_1_0",
+					"weight": 104
+				},
+				{
+					"model": "block/peony/peony_flower_1_1",
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_1_2",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 150
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_1_0",
+					"y": 90,
+					"weight": 105
+				},
+				{
+					"model": "block/peony/peony_flower_1_1",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_1_2",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 150
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_1_0",
+					"y": 180,
+					"weight": 106
+				},
+				{
+					"model": "block/peony/peony_flower_1_1",
+					"y": 180,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_1_2",
+					"y": 180,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 150
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "upper"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_1_0",
+					"y": 270,
+					"weight": 107
+				},
+				{
+					"model": "block/peony/peony_flower_1_1",
+					"y": 270,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_1_2",
+					"y": 270,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 150
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_2_0",
+					"weight": 108
+				},
+				{
+					"model": "block/peony/peony_flower_2_1",
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_2_2",
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 150
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_2_0",
+					"y": 90,
+					"weight": 109
+				},
+				{
+					"model": "block/peony/peony_flower_2_1",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_2_2",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 150
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_2_0",
+					"y": 180,
+					"weight": 110
+				},
+				{
+					"model": "block/peony/peony_flower_2_1",
+					"y": 180,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_2_2",
+					"y": 180,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 150
+				}
+			]
+		},
+		{
+			"when": {
+				"half": "lower"
+			},
+			"apply": [
+				{
+					"model": "block/peony/peony_flower_2_0",
+					"y": 90,
+					"weight": 111
+				},
+				{
+					"model": "block/peony/peony_flower_2_1",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/peony/peony_flower_2_2",
+					"y": 90,
+					"weight": 100
+				},
+				{
+					"model": "block/empty",
+					"weight": 150
+				}
+			]
+		}
+	]
+}

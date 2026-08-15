@@ -1,0 +1,81 @@
+{
+	"parent": "block/flower",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/lily_of_the_valley_leaves",
+		"leaves": "block/lily_of_the_valley_leaves",
+		"stem": "block/lily_of_the_valley_stem"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 8],
+			"to": [11, 3, 8],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 10, 5, 13], "texture": "#leaves"},
+				"south": {"uv": [5, 10, 0, 13], "texture": "#leaves"}
+			}
+		},
+		{
+			"from": [6, 2.77163, 9.14801],
+			"to": [11, 6.77163, 9.14801],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 2.77159, 9.14804]},
+			"faces": {
+				"north": {"uv": [0, 6, 5, 10], "texture": "#leaves"},
+				"south": {"uv": [5, 6, 0, 10], "texture": "#leaves"}
+			}
+		},
+		{
+			"from": [6, 5.60005, 11.97645],
+			"to": [11, 11.60005, 11.97645],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 5.60002, 11.97648]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 6], "texture": "#leaves"},
+				"south": {"uv": [5, 0, 0, 6], "texture": "#leaves"}
+			}
+		},
+		{
+			"from": [6, 0, 8],
+			"to": [10, 5, 8],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [5, 5, 9, 10], "texture": "#leaves"},
+				"south": {"uv": [9, 5, 5, 10], "texture": "#leaves"}
+			}
+		},
+		{
+			"from": [6, 4.61977, 6.08747],
+			"to": [10, 9.61977, 6.08747],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 4.61973, 6.0875]},
+			"faces": {
+				"north": {"uv": [5, 0, 9, 5], "texture": "#leaves"},
+				"south": {"uv": [9, 0, 5, 5], "texture": "#leaves"}
+			}
+		},
+		{
+			"from": [8, 0, 3],
+			"to": [8, 10, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [5, 0, 0, 10], "texture": "#stem"},
+				"west": {"uv": [0, 0, 5, 10], "texture": "#stem"}
+			}
+		},
+		{
+			"from": [2, 0, 8],
+			"to": [8, 13, 8],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [11, 0, 5, 13], "texture": "#stem"},
+				"south": {"uv": [5, 0, 11, 13], "texture": "#stem"}
+			}
+		}
+	]
+}

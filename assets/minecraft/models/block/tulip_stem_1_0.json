@@ -1,0 +1,20 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "block/tulip_stem_0_0",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/red_tulip_0"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 4],
+			"to": [8, 11, 12],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8.025, 5.5, 8]},
+			"faces": {
+				"east": {"uv": [0, 5, 8, 16], "texture": "#particle"},
+				"west": {"uv": [0, 5, 8, 16], "texture": "#particle"}
+			}
+		}
+	]
+}

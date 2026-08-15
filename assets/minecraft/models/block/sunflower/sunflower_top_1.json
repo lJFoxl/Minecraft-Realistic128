@@ -1,0 +1,62 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+	"parent": "block/sunflower/sunflower_top_0",
+	"textures": {
+		"cross": "block/sunflower_top",
+		"front": "block/sunflower/sunflower_front",
+		"particle": "block/sunflower/sunflower_back"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 8, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 5, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [8, 8, 16],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 8, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8.707, 3.707, 4],
+			"to": [8.707, 11.707, 12],
+			"shade": false,
+			"rotation": {"angle": 27.5, "axis": "z", "origin": [8.707, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 8], "texture": "#particle"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [9.707, 4.707, 5],
+			"to": [9.707, 10.707, 11],
+			"shade": false,
+			"rotation": {"angle": 27.5, "axis": "z", "origin": [8.707, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 8, 6, 14], "texture": "#particle"},
+				"west": {"uv": [0, 8, 6, 14], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [8.89838, 0.34452, 0.5],
+			"to": [8.89838, 15.34452, 15.5],
+			"shade": false,
+			"rotation": {"angle": 27.5, "axis": "z", "origin": [8.89838, 8.84452, 8]},
+			"faces": {
+				"east": {"uv": [1, 1, 16, 16], "texture": "#front"},
+				"west": {"uv": [1, 1, 16, 16], "texture": "#front"}
+			}
+		}
+	]
+}

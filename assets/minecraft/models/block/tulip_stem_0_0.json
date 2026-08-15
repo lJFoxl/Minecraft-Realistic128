@@ -1,0 +1,51 @@
+{
+	"credit": "Created by Mickey Joe Alpha - http://YouTube.com/@MushirMickeyJoe",
+    "parent": "item/handheld",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/red_tulip_0"
+	},
+	"elements": [
+		{
+			"from": [4.05, 0, 8],
+			"to": [12.05, 11, 8],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [8.025, 5.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 5, 8, 16], "texture": "#particle"},
+				"south": {"uv": [0, 5, 8, 16], "texture": "#particle"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-0.5, 7, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-0.5, 7, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [44, -90, 46],
+			"translation": [1.88, 4.95, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [44, -90, 46],
+			"translation": [1.88, 4.95, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"gui": {
+			"rotation": [48.38, 0.07, 41],
+			"translation": [-0.75, -0.75, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [-28.25, 90, 0],
+			"translation": [-0.25, 4.75, -6.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}
