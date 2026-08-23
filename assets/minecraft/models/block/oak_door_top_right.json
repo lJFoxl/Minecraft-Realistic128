@@ -1,7 +1,33 @@
 {
-  "parent": "minecraft:block/door_top_right",
-  "textures": {
-    "bottom": "minecraft:block/oak_door_bottom",
-    "top": "minecraft:block/oak_door_top"
-  }
+	"format_version": "1.21.6",
+	"textures": {
+		"particle": "block/oak_door_upper",
+		"front": "block/oak_door_upper",
+		"sides": "block/oak_door_sides"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 16], "texture": "#sides", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"south": {"uv": [3, 0, 0, 16], "texture": "#sides", "cullface": "south"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#front", "cullface": "west"},
+				"up": {"uv": [6, 16, 9, 0], "rotation": 180, "texture": "#sides", "cullface": "up"}
+			}
+		},
+		{
+			"from": [3, 12.125, 10.75],
+			"to": [0, 6.75, 5.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 5.25, 10.5]},
+			"faces": {
+				"north": {"uv": [3, 3.875, 0, 9.25], "texture": "#sides"},
+				"south": {"uv": [0, 3.875, 3, 9.25], "texture": "#sides"},
+				"up": {"uv": [6, 5.25, 9, 10.75], "texture": "#sides"},
+				"down": {"uv": [6, 5.25, 9, 10.75], "texture": "#sides"}
+			}
+		}
+	]
 }

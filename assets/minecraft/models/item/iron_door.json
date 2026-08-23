@@ -1,0 +1,58 @@
+{
+	"format_version": "1.21.6",
+	"parent": "item/door",
+	"textures": {
+		"lower": "block/iron_door_lower",
+		"particle": "block/iron_door_upper",
+		"upper": "block/iron_door_upper",
+		"sides": "block/iron_door_sides"
+	},
+	"elements": [
+		{
+			"name": "lower",
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [3, 0, 6, 16], "texture": "#sides", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#lower"},
+				"south": {"uv": [6, 0, 3, 16], "texture": "#sides", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#lower", "cullface": "west"},
+				"down": {"uv": [6, 0, 9, 16], "texture": "#sides", "cullface": "down"}
+			}
+		},
+		{
+			"name": "base",
+			"from": [0, 16, 0],
+			"to": [3, 32, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 16], "texture": "#sides", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#upper"},
+				"south": {"uv": [3, 0, 0, 16], "texture": "#sides", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#upper", "cullface": "west"},
+				"up": {"uv": [6, 0, 9, 16], "rotation": 180, "texture": "#sides", "cullface": "up"}
+			}
+		},
+		{
+			"name": "opening",
+			"from": [3, 28.125, 10.875],
+			"to": [0, 25.875, 5.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 18.25, 5.5]},
+			"faces": {
+				"north": {"uv": [3, 6.125, 0, 3.875], "texture": "#sides"},
+				"south": {"uv": [0, 6.125, 3, 3.875], "texture": "#sides"},
+				"up": {"uv": [6, 5.375, 9, 10.875], "texture": "#sides"},
+				"down": {"uv": [6, 10.625, 9, 5.125], "texture": "#sides"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "upper",
+			"origin": [0, 16, 0],
+			"color": 0,
+			"children": [1, 2]
+		}
+	]
+}

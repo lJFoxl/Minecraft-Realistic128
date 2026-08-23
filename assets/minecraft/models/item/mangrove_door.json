@@ -1,0 +1,9 @@
+{
+    "parent": "item/door",
+	"textures": {
+        "particle": "block/mangrove_door_upper",
+        "lower": "block/mangrove_door_lower",
+        "upper": "block/mangrove_door_upper",
+		"sides": "block/mangrove_door_sides"
+    }
+}

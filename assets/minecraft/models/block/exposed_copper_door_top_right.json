@@ -1,0 +1,8 @@
+{
+	"parent": "block/copper_door_top_right",
+	"textures": {
+		"particle": "block/exposed_copper_door_upper",
+		"front": "block/exposed_copper_door_upper",
+		"sides": "block/exposed_copper_door_sides"
+	}
+}

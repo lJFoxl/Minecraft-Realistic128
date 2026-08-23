@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.6",
+	"parent": "block/door_bottom_rh",
+	"textures": {
+		"particle": "block/birch_door_lower",
+		"front": "block/birch_door_lower",
+		"sides": "block/birch_door_sides"
+	}
+}

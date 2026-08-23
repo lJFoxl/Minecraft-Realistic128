@@ -1,0 +1,9 @@
+{
+    "parent": "item/door",
+	"textures": {
+        "particle": "block/jungle_door_upper",
+        "lower": "block/jungle_door_lower",
+        "upper": "block/jungle_door_upper",
+		"sides": "block/jungle_door_sides"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "item/door",
+	"textures": {
+        "particle": "block/warped_door_upper",
+        "lower": "block/warped_door_lower",
+        "upper": "block/warped_door_upper",
+		"sides": "block/warped_door_sides"
+    }
+}

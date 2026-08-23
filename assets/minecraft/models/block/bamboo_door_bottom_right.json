@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.6",
+	"textures": {
+		"particle": "block/bamboo_door_lower",
+		"front": "block/bamboo_door_lower",
+		"sides": "block/bamboo_door_sides"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [3, 0, 6, 16], "texture": "#sides", "cullface": "south"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"south": {"uv": [3, 0, 6, 16], "texture": "#sides", "cullface": "north"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#front", "cullface": "west"},
+				"down": {"uv": [6, 16, 9, 0], "texture": "#sides", "cullface": "down"}
+			}
+		}
+	]
+}
