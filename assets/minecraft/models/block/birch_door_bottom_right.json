@@ -1,9 +1,10 @@
 {
-	"format_version": "1.21.6",
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"parent": "block/door_bottom_rh",
 	"textures": {
-		"particle": "block/birch_door_lower",
-		"front": "block/birch_door_lower",
-		"sides": "block/birch_door_sides"
+		"sides": "block/birch_log",
+		"particle": "block/birch_planks",
+		"front": "block/birch_planks"
 	}
 }

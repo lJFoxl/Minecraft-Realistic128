@@ -1,8 +1,9 @@
 {
-    "parent": "block/door_bottom",
-    "textures": {
-        "particle": "block/mangrove_door_lower",
-        "front": "block/mangrove_door_lower",
-		"sides": "block/mangrove_door_sides"
-    }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom",
+	"textures": {
+		"sides": "block/mangrove_log",
+		"front": "block/mangrove_planks"
+	}
 }

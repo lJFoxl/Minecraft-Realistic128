@@ -1,7 +1,10 @@
 {
-    "parent": "block/door_bottom",
-    "textures": {
-        "front": "block/copper_door_lower",
-        "sides": "block/copper_door_sides"
-    }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom",
+	"textures": {
+		"particle": "block/copper_block",
+		"sides": "block/copper_block",
+		"front": "block/copper_block"
+	}
 }

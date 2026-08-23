@@ -1,8 +1,9 @@
 {
-    "parent": "block/door_bottom",
-    "textures": {
-        "particle": "block/oak_door_lower",
-        "front": "block/oak_door_lower",
-		"sides": "block/oak_door_sides"
-    }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom",
+	"textures": {
+		"sides": "block/oak_log",
+		"front": "block/oak_planks"
+	}
 }

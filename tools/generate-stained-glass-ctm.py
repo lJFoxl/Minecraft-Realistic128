@@ -5,13 +5,16 @@
 47 тайлов из LBPR, см. copy-glass-from-lbpr.js).
 
 Геометрия/альфа (какой тайл куда подставляется при соединении блоков) берётся
-как есть у обычного стекла — она не зависит от цвета. Меняется только RGB:
-каждый тайл умножается на поканальный коэффициент
-    ratio_c = цветное_стекло_avg_c / ctm_tiles_avg_c
-где ctm_tiles_avg — средний цвет по ВСЕМ 47 тайлам CTM обычного стекла (а не
-по фоновой textures/block/glass.png — она сильно темнее самих тайлов CTM,
-т.к. тайлы уже содержат яркие блики рамы; коэффициент от неё давал ratio до
-7x и почти полностью забивал тайлы в сплошной цвет). Альфа не меняется.
+как есть у обычного стекла — она не зависит от цвета. Меняется только RGB, и
+не прямым умножением на коэффициент (это давало слишком светлые тёмные цвета:
+чёрное стекло не выглядело чёрным, а на глаз почти не отличалось от tinted
+glass — ratio для обоих был near-1:1 по каналам, т.к. оба цвета почти серые),
+а переносом среднего + приглушённой вариацией паттерна вокруг него:
+    out = цвет_avg + (tile_rgb - ctm_tiles_avg) * CONTRAST
+Так итоговый тон тайла ВСЕГДА совпадает со средним цветом текстуры (чёрное
+реально тёмное, витражные цвета не размываются яркими бликами рамы из
+обычного стекла), а само соединительное CTM-паттерн остаётся видно слабым
+рельефом по краям. Альфа не меняется.
 
 Результат кладётся в assets/minecraft/optifine/ctm/stained_glass/<color>/
 с properties (matchBlocks=<color>_stained_glass, method=ctm, tiles=0-46).
@@ -29,6 +32,7 @@ SRC_CTM_DIR = os.path.join(ROOT, "assets", "minecraft", "optifine", "ctm", "glas
 DST_CTM_ROOT = os.path.join(ROOT, "assets", "minecraft", "optifine", "ctm", "stained_glass")
 
 TILE_COUNT = 47  # 0..46
+CONTRAST = 0.35  # доля исходной вариации паттерна, сохраняемая поверх среднего цвета
 
 COLORS = [
     "white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray",
@@ -52,8 +56,7 @@ for color in COLORS:
         continue
 
     color_avg = avg_rgb(color_tex)
-    ratio = color_avg / np.maximum(clear_avg, 1.0)
-    print(f"{color:12s} avg={tuple(round(v, 1) for v in color_avg)} ratio={tuple(round(v, 2) for v in ratio)}")
+    print(f"{color:12s} avg={tuple(round(v, 1) for v in color_avg)}")
 
     dst_dir = os.path.join(DST_CTM_ROOT, color)
     os.makedirs(dst_dir, exist_ok=True)
@@ -65,7 +68,7 @@ for color in COLORS:
         rgb = arr[..., :3]
         alpha = arr[..., 3]
 
-        out_rgb = np.clip(rgb * ratio, 0, 255)
+        out_rgb = np.clip(color_avg + (rgb - clear_avg) * CONTRAST, 0, 255)
         out = np.dstack([out_rgb, alpha]).astype(np.uint8)
         Image.fromarray(out, "RGBA").save(os.path.join(dst_dir, f"{i}.png"))
 

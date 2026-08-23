@@ -1,8 +1,9 @@
 {
-    "parent": "block/door_bottom",
-    "textures": {
-        "particle": "block/jungle_door_lower",
-        "front": "block/jungle_door_lower",
-		"sides": "block/jungle_door_sides"
-    }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom",
+	"textures": {
+		"sides": "block/jungle_log",
+		"front": "block/jungle_planks"
+	}
 }

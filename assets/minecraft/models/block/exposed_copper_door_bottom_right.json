@@ -1,8 +1,10 @@
 {
-    "parent": "block/door_bottom_rh",
-    "textures": {
-        "particle": "block/exposed_copper_door_lower",
-        "front": "block/exposed_copper_door_lower",
-        "sides": "block/exposed_copper_door_sides"
-    }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom_rh",
+	"textures": {
+		"particle": "block/exposed_copper",
+		"sides": "block/exposed_copper",
+		"front": "block/exposed_copper"
+	}
 }

@@ -2,10 +2,10 @@
 	"format_version": "1.21.6",
 	"parent": "item/door",
 	"textures": {
-		"lower": "block/iron_door_lower",
-		"particle": "block/iron_door_upper",
-		"upper": "block/iron_door_upper",
-		"sides": "block/iron_door_sides"
+		"lower": "block/iron_block",
+		"particle": "block/iron_block",
+		"upper": "block/iron_block",
+		"sides": "block/iron_block"
 	},
 	"elements": [
 		{

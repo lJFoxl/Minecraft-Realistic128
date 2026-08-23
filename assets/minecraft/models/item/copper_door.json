@@ -2,10 +2,10 @@
 	"format_version": "1.21.6",
 	"parent": "item/door",
 	"textures": {
-		"particle": "block/copper_door_upper",
-		"upper": "block/copper_door_upper",
-		"lower": "block/copper_door_lower",
-		"sides": "block/copper_door_sides"
+		"particle": "block/copper_block",
+		"upper": "block/copper_block",
+		"lower": "block/copper_block",
+		"sides": "block/copper_block"
 	},
 	"elements": [
 		{
