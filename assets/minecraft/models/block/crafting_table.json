@@ -7,7 +7,8 @@
 		"5": "block/iron_block",
 		"6": "block/brown_wool",
 		"7": "block/dark_oak_planks",
-		"8": "block/yellow_wool"
+		"8": "block/yellow_wool",
+		"particle": "block/oak_planks"
 	},
 	"elements": [
 		{
