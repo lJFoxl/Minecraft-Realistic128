@@ -22,7 +22,11 @@
 param(
     [string]$SourceDir = $PSScriptRoot,
     [string]$VanillaTexturesFile = (Join-Path $PSScriptRoot "vanilla_textures_1.21.11.txt"),
-    [int]$MaxDim = 128
+    [int]$MaxDim = 128,
+    # Куда копировать готовый .zip сразу после сборки (папка resourcepacks игры).
+    # Передай -NoDeploy, чтобы пропустить деплой.
+    [string]$DeployDir = "C:\Users\1\AppData\Roaming\.minecraft\versions\Fabric21.11\resourcepacks",
+    [switch]$NoDeploy
 )
 
 $ErrorActionPreference = "Stop"
@@ -299,3 +303,26 @@ Write-Host ("  Размер       : {0} МБ" -f $sizeMb)
 Write-Host ("  Уменьшено PNG: {0}" -f $resizedCount)
 Write-Host ("  Без изменений: {0}" -f $skippedCount)
 Write-Host "  Исходники в assets/ не изменялись."
+
+# --- Деплой: копируем готовый архив в папку resourcepacks игры -----------------
+function Deploy-Pack {
+    param([string[]]$Zips)
+    if ($NoDeploy) {
+        Write-Host "Деплой пропущен (-NoDeploy)." -ForegroundColor DarkGray
+        return
+    }
+    if (-not (Test-Path $DeployDir)) {
+        Write-Host "Создаю папку назначения: $DeployDir" -ForegroundColor DarkGray
+        New-Item -ItemType Directory -Path $DeployDir -Force | Out-Null
+    }
+    foreach ($z in $Zips) {
+        if (-not (Test-Path $z)) { Write-Warning "Нет архива для деплоя: $z"; continue }
+        $dest = Join-Path $DeployDir (Split-Path $z -Leaf)
+        Copy-Item -Path $z -Destination $dest -Force
+        $sizeMb = [math]::Round((Get-Item $z).Length / 1MB, 2)
+        Write-Host ("  → Деплой: {0}  ({1} МБ)" -f $dest, $sizeMb) -ForegroundColor Cyan
+    }
+    Write-Host "Пак отправлен в: $DeployDir" -ForegroundColor Green
+}
+
+Deploy-Pack -Zips @( $outZip )

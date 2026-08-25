@@ -3,7 +3,7 @@
 	"credit": "Made by ASpectre!",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"1": "block/netherite_block",
+		"1": "block/iron_block",
 		"2": "block/oak_log",
 		"3": "block/gold_block",
 		"4": "block/gray_wool",

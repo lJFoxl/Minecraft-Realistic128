@@ -38,7 +38,11 @@
 [CmdletBinding()]
 param(
     [string]$SourceDir = $PSScriptRoot,
-    [string]$VanillaTexturesFile = (Join-Path $PSScriptRoot "vanilla_textures_1.21.11.txt")
+    [string]$VanillaTexturesFile = (Join-Path $PSScriptRoot "vanilla_textures_1.21.11.txt"),
+    # Куда копировать готовые .zip сразу после сборки (папка resourcepacks игры).
+    # Передай -NoDeploy, чтобы пропустить деплой.
+    [string]$DeployDir = "C:\Users\1\AppData\Roaming\.minecraft\versions\Fabric21.11\resourcepacks",
+    [switch]$NoDeploy
 )
 
 $ErrorActionPreference = "Stop"
@@ -360,5 +364,31 @@ Build-Pack -Name "JFox_RealisticHD" `
 Build-Pack -Name "JFox_Realistic3D" `
     -Description "J.Fox Realistic — 3D модели" `
     -Files $modelFiles
+
+# --- Деплой: копируем готовые архивы в папку resourcepacks игры --------------
+function Deploy-Pack {
+    param([string[]]$Zips)
+    if ($NoDeploy) {
+        Write-Host "Деплой пропущен (-NoDeploy)." -ForegroundColor DarkGray
+        return
+    }
+    if (-not (Test-Path $DeployDir)) {
+        Write-Host "Создаю папку назначения: $DeployDir" -ForegroundColor DarkGray
+        New-Item -ItemType Directory -Path $DeployDir -Force | Out-Null
+    }
+    foreach ($z in $Zips) {
+        if (-not (Test-Path $z)) { Write-Warning "Нет архива для деплоя: $z"; continue }
+        $dest = Join-Path $DeployDir (Split-Path $z -Leaf)
+        Copy-Item -Path $z -Destination $dest -Force
+        $sizeMb = [math]::Round((Get-Item $z).Length / 1MB, 2)
+        Write-Host ("  → Деплой: {0}  ({1} МБ)" -f $dest, $sizeMb) -ForegroundColor Cyan
+    }
+    Write-Host "Паки отправлены в: $DeployDir" -ForegroundColor Green
+}
+
+Deploy-Pack -Zips @(
+    (Join-Path $SourceDir "JFox_RealisticHD.zip"),
+    (Join-Path $SourceDir "JFox_Realistic3D.zip")
+)
 
 Write-Host "Готово. Оба пака собраны и могут включаться независимо друг от друга." -ForegroundColor Green
