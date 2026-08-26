@@ -1,8 +1,6 @@
 {
 	"parent": "block/copper_trapdoor",
 	"textures": {
-		"particle": "block/weathered_copper_trapdoor",
-		"front": "block/weathered_copper_trapdoor",
-		"sides": "block/weathered_copper_door_sides"
+		"sides": "block/weathered_copper"
 	}
 }
