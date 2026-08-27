@@ -15,11 +15,7 @@
 			"to": [11, 15.1, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-7, 0, 7]},
 			"faces": {
-				"north": {"uv": [0, 1, 6, 3], "texture": "#7", "cullface": "north"},
-				"east": {"uv": [0, 0, 5, 2], "texture": "#7"},
-				"south": {"uv": [0, 0, 6, 2], "texture": "#7"},
-				"west": {"uv": [1, 1, 6, 3], "texture": "#7", "cullface": "north"},
-				"up": {"uv": [0, 0, 6, 5], "texture": "#7"}
+				"up": {"uv": [0, 0, 16, 16], "texture": "#7"}
 			}
 		},
 		{
@@ -342,7 +338,7 @@
 	"groups": [
 		0,
 		{
-			"name": "cablestone",
+			"name": "coblestone",
 			"origin": [0, 0, 0],
 			"scope": 0,
 			"color": 0,
