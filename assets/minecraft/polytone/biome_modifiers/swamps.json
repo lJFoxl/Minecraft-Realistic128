@@ -1,0 +1,12 @@
+{
+  "sky_color": 6464684,
+  "fog_color": 11461088,
+  "targets": ["minecraft:swamp"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#62a4ac",
+    "minecraft:visual/fog_color": "#aee1e0",
+    "minecraft:visual/cloud_color": "#ccdcfffe",
+    "minecraft:visual/fog_start_distance": -16,
+    "minecraft:visual/fog_end_distance": 768
+  }
+}

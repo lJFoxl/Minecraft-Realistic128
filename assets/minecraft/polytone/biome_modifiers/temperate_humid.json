@@ -1,0 +1,12 @@
+{
+  "sky_color": 9090047,
+  "targets": [
+    "minecraft:birch_forest", 
+    "minecraft:flower_forest", 
+    "minecraft:forest", 
+    "minecraft:old_growth_birch_forest"
+  ],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#8ab3ff"
+  }
+}

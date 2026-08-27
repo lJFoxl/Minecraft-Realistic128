@@ -1,0 +1,5 @@
+{
+  "targets": ["minecraft:pale_garden"],
+  "fog_radius": 0.5,
+  "fog_fade": "8 + max(-0.25, min(0.25, + (RAIN * 0.25))) * 1"
+}

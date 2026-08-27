@@ -1,0 +1,10 @@
+{
+  "sky_color": 9415152,
+  "targets": [
+    "minecraft:cold_ocean",
+    "minecraft:deep_cold_ocean"
+  ],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#8fa9f0"
+  }
+}

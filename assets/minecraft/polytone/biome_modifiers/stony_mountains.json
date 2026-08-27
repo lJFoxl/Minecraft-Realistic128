@@ -1,0 +1,7 @@
+{
+  "sky_color": 7050977,
+  "targets": ["minecraft:stony_peaks"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#6b96e1"
+  }
+}

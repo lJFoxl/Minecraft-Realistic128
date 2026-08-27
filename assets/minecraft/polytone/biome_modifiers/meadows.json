@@ -1,0 +1,9 @@
+{
+  "sky_color": 7708912,
+  "fog_color": 12901631,
+  "targets": ["minecraft:meadow"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#75a0f0",
+    "minecraft:visual/fog_color": "#c4dcff"
+  }
+}

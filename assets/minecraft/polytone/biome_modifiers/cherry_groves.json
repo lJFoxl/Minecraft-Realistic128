@@ -1,0 +1,10 @@
+{
+  "sky_color": 7650303,
+  "fog_color": 16763124,
+  "targets": ["minecraft:cherry_grove"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#74bbff",
+    "minecraft:visual/fog_color": "#ffc8f4",
+    "minecraft:visual/cloud_color": "#ccffe7fc"
+  }
+}

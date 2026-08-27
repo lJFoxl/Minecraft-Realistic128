@@ -1,0 +1,8 @@
+{
+  "fog_color": 16772817,
+  "targets": ["minecraft:desert"],
+  "attributes_modifiers": {
+    "minecraft:visual/fog_color": "#ffeed1",
+    "minecraft:visual/cloud_color": "#ccfff9ed"
+  }
+}

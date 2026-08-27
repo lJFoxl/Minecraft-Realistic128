@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp"
+  ],
+  "fog_radius": 0.8,
+  "fog_fade": "5 + max(-0.25, min(0.25, + (RAIN * 0.25))) * 15"
+}

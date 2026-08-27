@@ -1,0 +1,18 @@
+Source: "Better 3D Craft" by Heycronus
+Modrinth: https://modrinth.com/user/heycronus
+License: All Rights Reserved ("Please do not redistribute without permission." - from pack's README.txt)
+
+Files merged into this pack (personal use only, do not redistribute externally without permission):
+- assets/minecraft/models/block/carved_pumpkin.json
+- assets/minecraft/models/block/jack_o_lantern.json
+- assets/minecraft/models/block/smithing_table.json
+- assets/minecraft/models/block/cartography_table.json
+- assets/minecraft/models/block/fletching_table.json
+
+Fixed a bug in the source models: several faces referenced a texture key "#missing" instead of
+a real key. Remapped to "#0" (carved_pumpkin/jack_o_lantern) and "#2" (smithing_table), matching
+the analogous faces elsewhere in each model.
+
+Textures paired with these models were NOT taken from Heycronus's pack (his were plain 16x16
+vanilla placeholders) - used our existing LBPR-sourced HD textures instead:
+smithing_table_bottom/front/side/top, carved_pumpkin, jack_o_lantern, pumpkin_side, pumpkin_top.

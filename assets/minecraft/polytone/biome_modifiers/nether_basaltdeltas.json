@@ -1,0 +1,7 @@
+{
+  "sky_color": 9274007,
+  "targets": ["minecraft:basalt_deltas"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#8d8297"
+  }
+}

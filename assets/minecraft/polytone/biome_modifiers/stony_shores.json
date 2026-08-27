@@ -1,0 +1,7 @@
+{
+  "sky_color": 7907327,
+  "targets": ["minecraft:stony_shore"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#78a7ff"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "minecraft:deep_dark",
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves"
+  ],
+  "fog_radius": 0.5,
+  "fog_fade": 6
+}

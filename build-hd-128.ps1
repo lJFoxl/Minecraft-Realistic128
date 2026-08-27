@@ -173,8 +173,9 @@ foreach ($f in $allAssetFiles) {
 
     $isTexture = $rel -match '/textures/'
     $isOptifineFolder = $rel -match '/optifine/'
+    $isPolytoneFolder = $rel -match '/polytone/'
 
-    if ($isTexture -or $isOptifineFolder) { $hdFiles.Add($f.FullName); continue }
+    if ($isTexture -or $isOptifineFolder -or $isPolytoneFolder) { $hdFiles.Add($f.FullName); continue }
 
     if ($rel -match '^assets/([^/]+)/(blockstates|models|items)/') {
         $namespace = $Matches[1]

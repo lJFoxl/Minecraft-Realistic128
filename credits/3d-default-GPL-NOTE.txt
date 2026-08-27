@@ -1,0 +1,23 @@
+Source: "3D Default" by GeForceLegend
+License: GNU GPLv3 (see bundled LICENSE in the source pack)
+
+WARNING: This is a copyleft license. Unlike the MIT/ARR sources used elsewhere in this
+pack, GPLv3 requires that derivative works be distributed under GPLv3 too. This pack
+was already rejected once for this exact reason (the GPL bed model, removed earlier).
+
+User explicitly chose to proceed anyway on 2026-08-26, planning to edit the models
+afterward. DO NOT PUBLISH THIS PACK EXTERNALLY while these files are present /
+unmodified without resolving the licensing question first.
+
+Files merged into this pack:
+- assets/minecraft/models/block/blast_furnace.json
+- assets/minecraft/models/block/blast_furnace_on.json
+- assets/minecraft/models/block/loom.json
+- assets/minecraft/models/block/smoker.json
+- assets/minecraft/models/block/smoker_on.json
+- assets/minecraft/textures/block/loom_top2.png (custom, non-vanilla, only available from this source)
+- assets/minecraft/textures/block/blast_furnace_front_on_s.png (+.mcmeta)
+- assets/minecraft/textures/block/smoker_front_on_s.png
+
+All other paired textures (tops/sides/fronts) were NOT taken from this pack -
+used existing LBPR-sourced HD textures instead.

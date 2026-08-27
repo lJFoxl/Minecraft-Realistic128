@@ -1,0 +1,8 @@
+{
+  "sky_color": 8102900,
+  "targets": ["minecraft:dark_forest"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#7ba3f4",
+    "minecraft:visual/fog_end_distance": 896
+  }
+}

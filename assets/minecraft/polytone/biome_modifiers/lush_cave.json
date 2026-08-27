@@ -1,0 +1,9 @@
+{
+  "fog_color": 1277045,
+  "targets": ["minecraft:lush_caves"],
+  "attributes_modifiers": {
+    "minecraft:visual/fog_color": "#137c75",
+    "minecraft:visual/fog_start_distance": -64,
+    "minecraft:visual/fog_end_distance": 448
+  }
+}

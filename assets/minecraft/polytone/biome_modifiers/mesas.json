@@ -1,0 +1,12 @@
+{
+  "fog_color": 16766899,
+  "targets": [
+    "minecraft:badlands", 
+    "minecraft:eroded_badlands", 
+    "minecraft:wooded_badlands"
+  ],
+  "attributes_modifiers": {
+    "minecraft:visual/fog_color": "#ffd7b3",
+    "minecraft:visual/cloud_color": "#ccffefe0"
+  }
+}
