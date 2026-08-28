@@ -1,1 +1,1 @@
-{"parent":"block/log","textures":{"top":"minecraft:block/jungle_log_top","side":"minecraft:block/jungle_log"}}
+{"parent":"minecraft:block/cube_column","textures":{"end":"minecraft:block/jungle_log_top","side":"minecraft:block/jungle_log"}}
