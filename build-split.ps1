@@ -41,7 +41,7 @@ param(
     [string]$VanillaTexturesFile = (Join-Path $PSScriptRoot "vanilla_textures_1.21.11.txt"),
     # Куда копировать готовые .zip сразу после сборки (папка resourcepacks игры).
     # Передай -NoDeploy, чтобы пропустить деплой.
-    [string]$DeployDir = "C:\Users\1\AppData\Roaming\.minecraft\versions\Fabric21.11\resourcepacks",
+    [string]$DeployDir = "C:\Users\1\AppData\Roaming\.minecraft\versions\Fabric26.2\resourcepacks",
     [switch]$NoDeploy
 )
 

@@ -6,7 +6,8 @@
 		"3": "block/coal_block",
 		"fire": "block/campfire_fire",
 		"stripped": "block/stripped_oak_log",
-		"stripped_top": "block/stripped_oak_log_top"
+		"stripped_top": "block/stripped_oak_log_top",
+		"particle": "block/stripped_oak_log"
 	},
 	"elements": [
 		{
@@ -91,6 +92,11 @@
 	"display": {
 		"head": {
 			"translation": [0, 10.5, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 0, 0],
+			"scale": [0.625, 0.625, 0.625]
 		}
 	},
 	"groups": [

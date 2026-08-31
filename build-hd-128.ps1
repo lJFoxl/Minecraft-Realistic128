@@ -25,7 +25,7 @@ param(
     [int]$MaxDim = 128,
     # Куда копировать готовый .zip сразу после сборки (папка resourcepacks игры).
     # Передай -NoDeploy, чтобы пропустить деплой.
-    [string]$DeployDir = "C:\Users\1\AppData\Roaming\.minecraft\versions\Fabric21.11\resourcepacks",
+    [string]$DeployDir = "C:\Users\1\AppData\Roaming\.minecraft\versions\Fabric26.2\resourcepacks",
     [switch]$NoDeploy
 )
 
