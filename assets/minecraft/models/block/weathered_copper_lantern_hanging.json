@@ -1,0 +1,7 @@
+{
+	"parent": "block/template_hanging_lantern",
+	"textures": {
+		"chain": "block/weathered_copper",
+		"glass": "block/tinted_glass"
+	}
+}

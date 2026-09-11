@@ -8,7 +8,12 @@ param(
     [string]$Name = "JFox_Realistic_1.21.11",
 
     # Папка сборки. По умолчанию — рядом со скриптом (корень репо).
-    [string]$SourceDir = $PSScriptRoot
+    [string]$SourceDir = $PSScriptRoot,
+
+    # Куда копировать готовый .zip сразу после сборки (папка resourcepacks игры).
+    # Передай -NoDeploy, чтобы пропустить деплой.
+    [string]$DeployDir = "C:\Users\1\AppData\Roaming\.minecraft\versions\Fabric26.2\resourcepacks",
+    [switch]$NoDeploy
 )
 
 $ErrorActionPreference = "Stop"
@@ -71,4 +76,18 @@ Write-Host ""
 Write-Host "Готово." -ForegroundColor Green
 Write-Host ("  Архив : {0}" -f $outZip)
 Write-Host ("  Размер: {0} МБ ({1} байт)" -f $sizeMb, $size)
-Write-Host "  Скопируй .zip в папку resourcepacks Minecraft и включи в игре."
+
+# --- Деплой: копируем готовый архив в папку resourcepacks игры -----------------
+if ($NoDeploy) {
+    Write-Host "Деплой пропущен (-NoDeploy)." -ForegroundColor DarkGray
+    Write-Host "  Скопируй .zip в папку resourcepacks Minecraft и включи в игре."
+} else {
+    if (-not (Test-Path $DeployDir)) {
+        Write-Host "Создаю папку назначения: $DeployDir" -ForegroundColor DarkGray
+        New-Item -ItemType Directory -Path $DeployDir -Force | Out-Null
+    }
+    $dest = Join-Path $DeployDir (Split-Path $outZip -Leaf)
+    Copy-Item -Path $outZip -Destination $dest -Force
+    Write-Host ("  → Деплой: {0}" -f $dest) -ForegroundColor Cyan
+    Write-Host "Пак отправлен в: $DeployDir" -ForegroundColor Green
+}

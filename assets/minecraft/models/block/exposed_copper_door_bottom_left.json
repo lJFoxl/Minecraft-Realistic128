@@ -1,0 +1,10 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom",
+	"textures": {
+		"particle": "block/exposed_copper",
+		"sides": "block/exposed_copper",
+		"front": "block/exposed_copper"
+	}
+}

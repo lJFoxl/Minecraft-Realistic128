@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom",
+	"textures": {
+		"sides": "block/jungle_log",
+		"front": "block/jungle_planks"
+	}
+}

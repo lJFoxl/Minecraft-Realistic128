@@ -1,0 +1,8 @@
+{
+	"parent": "block/template_hanging_lantern",
+	"textures": {
+		"fire": "block/soul_fire_0",
+		"glass": "block/cyan_stained_glass",
+		"particle": "block/soul_fire_0"
+	}
+}

@@ -1,15 +1,22 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"inside": "block/composter_ready",
-		"particle": "block/composter_compost"
+		"particle": "block/end_stone",
+		"inside": "block/end_stone"
 	},
 	"elements": [
 		{
-			"from": [1, 0, 1],
-			"to": [15, 14, 15],
+			"from": [2, 0, 2],
+			"to": [14, 14, 14],
 			"faces": {
-				"up": {"uv": [2, 2, 14, 14], "texture": "#inside"}
+				"up": {"uv": [4.6875, 5, 10.6875, 11], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 13.9, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#particle"}
 			}
 		}
 	]

@@ -1,0 +1,10 @@
+{
+  "sky_color": 10122751,
+  "fog_color": 13943551,
+  "targets": ["minecraft:mushroom_fields"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#9a75ff",
+    "minecraft:visual/fog_color": "#d4c2ff",
+    "minecraft:visual/cloud_color": "#ccede6ff"
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "block/template_campfire",
+	"textures": {
+		"fire": "block/soul_campfire_fire",
+		"3": "block/soul_sand"
+	}
+}

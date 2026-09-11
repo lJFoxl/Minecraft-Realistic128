@@ -1,7 +1,10 @@
 {
-  "parent": "minecraft:block/door_bottom_right",
-  "textures": {
-    "bottom": "minecraft:block/oak_door_bottom",
-    "top": "minecraft:block/oak_door_top"
-  }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom_rh",
+	"textures": {
+		"sides": "block/oak_log",
+		"particle": "block/oak_planks",
+		"front": "block/oak_planks"
+	}
 }

@@ -1,0 +1,15 @@
+{
+  "sky_color": 9746943,
+  "fog_color": 12777727,
+  "targets": [
+    "minecraft:bamboo_jungle",
+    "minecraft:jungle", 
+    "minecraft:sparse_jungle"
+  ],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#94b9ff",
+    "minecraft:visual/fog_color": "#c2f8ff",
+    "minecraft:visual/cloud_color": "#ccecfdff",
+    "minecraft:visual/fog_end_distance": 896
+  }
+}

@@ -4,7 +4,8 @@
 	"textures": {
 		"0": "block/stonecutter_saw",
 		"4": "block/oak_planks",
-		"5": "block/stone"
+		"5": "block/stone",
+		"particle": "block/stone"
 	},
 	"elements": [
 		{

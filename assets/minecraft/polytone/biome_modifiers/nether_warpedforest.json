@@ -1,0 +1,7 @@
+{
+  "sky_color": 3672888,
+  "targets": ["minecraft:warped_forest"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#380b38"
+  }
+}

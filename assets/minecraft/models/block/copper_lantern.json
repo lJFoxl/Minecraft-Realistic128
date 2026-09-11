@@ -1,0 +1,7 @@
+{
+	"parent": "block/template_lantern",
+	"textures": {
+		"chain": "block/copper_block",
+		"glass": "block/orange_stained_glass"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom_rh",
+	"textures": {
+		"sides": "block/acacia_log",
+		"particle": "block/acacia_planks",
+		"front": "block/acacia_planks"
+	}
+}

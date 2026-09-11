@@ -1,0 +1,12 @@
+{
+  "fog_color": 15058606,
+  "targets": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna"
+  ],
+  "attributes_modifiers": {
+    "minecraft:visual/fog_color": "#e5c6ae",
+    "minecraft:visual/cloud_color": "#ccfff4eb"
+  }
+}

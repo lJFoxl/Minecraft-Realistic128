@@ -1,0 +1,12 @@
+{
+  "sky_color": 7584964,
+  "fog_color": 11461088,
+  "targets": ["minecraft:mangrove_swamp"],
+  "attributes_modifiers": {
+    "minecraft:visual/sky_color": "#73bcc4",
+    "minecraft:visual/fog_color": "#aee1e0",
+    "minecraft:visual/cloud_color": "#ccdcfffe",
+    "minecraft:visual/fog_start_distance": -16,
+    "minecraft:visual/fog_end_distance": 768
+  }
+}

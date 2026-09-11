@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom",
+	"textures": {
+		"sides": "block/dark_oak_log",
+		"front": "block/dark_oak_planks"
+	}
+}

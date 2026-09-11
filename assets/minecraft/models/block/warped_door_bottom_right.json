@@ -1,0 +1,10 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom_rh",
+	"textures": {
+		"sides": "block/warped_stem",
+		"particle": "block/warped_planks",
+		"front": "block/warped_planks"
+	}
+}
