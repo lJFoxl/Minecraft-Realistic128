@@ -4,7 +4,7 @@
 	"textures": {
 		"1": "block/iron_block",
 		"3": "block/dark_oak_planks",
-		"particle": "block/iron_block"
+		"particle": "block/dark_oak_planks"
 	},
 	"elements": [
 		{
