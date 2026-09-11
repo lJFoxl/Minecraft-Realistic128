@@ -1,20 +1,21 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "block/end_stone",
-		"inside": "block/end_stone"
+		"particle": "block/dirt",
+		"inside": "block/dirt"
 	},
 	"elements": [
 		{
 			"from": [2, 0, 2],
-			"to": [14, 14, 14],
+			"to": [14, 10, 14],
 			"faces": {
-				"up": {"uv": [4.6875, 5, 10.6875, 11], "texture": "#inside"}
+				"up": {"uv": [2, 2, 14, 14], "texture": "#inside"}
 			}
 		},
 		{
 			"from": [0, 0, 0],
-			"to": [16, 13.9, 16],
+			"to": [16, 9.9, 16],
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#particle"}
 			}
